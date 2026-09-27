@@ -1,0 +1,7 @@
+management        Root                 management account: SCPs never apply here
+log-archive       Root/Security
+security-tooling  Root/Security
+payments-prod     Root/Workloads/Prod
+payments-dev      Root/Workloads/Dev
+data-lake-prod    Root                 no OU: OU policies skip it
+sandbox-jo        Root/Sandbox

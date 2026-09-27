@@ -1,0 +1,2 @@
+requests 2.28.2  CVE-2023-32681  MODERATE  fixed in 2.31.0
+urllib3 1.26.15  CVE-2023-43804  HIGH  fixed in 1.26.17

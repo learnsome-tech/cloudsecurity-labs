@@ -1,0 +1,1 @@
+python3 check_sg.py network.tf.json

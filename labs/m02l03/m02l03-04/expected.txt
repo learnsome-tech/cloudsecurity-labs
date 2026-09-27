@@ -1,0 +1,4 @@
+ci-deployer to prod-deploy   arn:aws:sts::444455556666:assumed-role/prod-deploy/run-4812
+same, for two hours          ValidationError: a chained session is limited to one hour
+ci-deployer to vendor-audit  AccessDenied: the caller's own policy does not allow it
+dev-sandbox to prod-deploy   AccessDenied: the role's trust policy does not match

@@ -1,0 +1,6 @@
+in the working tree: 0 matches
+commits that added or removed a token:
+  c893501 Read the token from the environment
+  dde4c90 Add API client
+whole history, as gitleaks reads it:
+client.py:1 exampleorg-api-token exmp_WKbs...REDACTED

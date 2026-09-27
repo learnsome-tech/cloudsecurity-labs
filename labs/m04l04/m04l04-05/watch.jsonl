@@ -1,0 +1,6 @@
+{"evt.time": "10:01:07.513092118", "evt.type": "connect", "fd.sip": "192.0.2.20", "fd.sport": 5432, "container.image.repository": "registry.example.com/shop/web"}
+{"evt.time": "10:02:14.118320951", "evt.type": "execve", "proc.exepath": "/bin/sh", "proc.is_exe_upper_layer": false, "container.image.repository": "registry.example.com/shop/web"}
+{"evt.time": "10:02:31.840227613", "evt.type": "execve", "proc.exepath": "/tmp/.x/kworker", "proc.is_exe_upper_layer": true, "container.image.repository": "registry.example.com/shop/web"}
+{"evt.time": "10:02:32.001958340", "evt.type": "connect", "fd.sip": "203.0.113.50", "fd.sport": 4444, "container.image.repository": "registry.example.com/shop/web"}
+{"evt.time": "10:03:05.662013997", "evt.type": "connect", "fd.sip": "192.0.2.10", "fd.sport": 53, "container.image.repository": "registry.example.com/shop/web"}
+{"evt.time": "10:20:44.395148200", "evt.type": "connect", "fd.sip": "192.0.2.30", "fd.sport": 6379, "container.image.repository": "registry.example.com/shop/web"}

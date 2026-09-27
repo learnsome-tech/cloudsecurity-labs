@@ -1,0 +1,5 @@
+alice, company laptop   200 payroll for alice@example.com
+alice, personal tablet  403 device fails posture: managed
+bob, company laptop     403 no group of yours grants this app
+bob, edited groups      401 sign in again: bad signature
+no token                401 sign in again: no token

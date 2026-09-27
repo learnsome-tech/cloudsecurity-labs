@@ -1,0 +1,136 @@
+{
+  "format_version": "1.2",
+  "terraform_version": "1.9.5",
+  "resource_changes": [
+    {
+      "address": "aws_db_instance.payroll",
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "payroll",
+      "provider_name": "registry.terraform.io/hashicorp/aws",
+      "change": {
+        "actions": [
+          "delete",
+          "create"
+        ],
+        "before": {
+          "identifier": "payroll",
+          "engine": "postgres",
+          "storage_encrypted": false,
+          "publicly_accessible": false,
+          "tags": {
+            "data_classification": "restricted"
+          }
+        },
+        "after": {
+          "identifier": "payroll",
+          "engine": "postgres",
+          "storage_encrypted": true,
+          "publicly_accessible": false,
+          "tags": {
+            "data_classification": "restricted"
+          }
+        },
+        "after_unknown": {
+          "arn": true,
+          "endpoint": true,
+          "kms_key_id": true
+        },
+        "replace_paths": [
+          [
+            "storage_encrypted"
+          ]
+        ],
+        "action_reason": "replace_because_cannot_update"
+      }
+    },
+    {
+      "address": "aws_ebs_volume.scratch",
+      "mode": "managed",
+      "type": "aws_ebs_volume",
+      "name": "scratch",
+      "provider_name": "registry.terraform.io/hashicorp/aws",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "before": null,
+        "after": {
+          "availability_zone": "eu-west-2a",
+          "encrypted": false,
+          "size": 100,
+          "tags": {
+            "data_classification": "confidential"
+          }
+        },
+        "after_unknown": {
+          "arn": true,
+          "id": true,
+          "kms_key_id": true
+        }
+      }
+    },
+    {
+      "address": "aws_sqs_queue.events",
+      "mode": "managed",
+      "type": "aws_sqs_queue",
+      "name": "events",
+      "provider_name": "registry.terraform.io/hashicorp/aws",
+      "change": {
+        "actions": [
+          "create"
+        ],
+        "before": null,
+        "after": {
+          "name": "payroll-events",
+          "sqs_managed_sse_enabled": true,
+          "tags": null
+        },
+        "after_unknown": {
+          "arn": true,
+          "id": true,
+          "url": true
+        }
+      }
+    },
+    {
+      "address": "aws_s3_bucket.site_assets",
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "site_assets",
+      "provider_name": "registry.terraform.io/hashicorp/aws",
+      "change": {
+        "actions": [
+          "update"
+        ],
+        "before": {
+          "bucket": "example-org-site-assets",
+          "tags": {
+            "data_classification": "public"
+          }
+        },
+        "after": {
+          "bucket": "example-org-site-assets",
+          "tags": {
+            "data_classification": "public",
+            "team": "web"
+          }
+        },
+        "after_unknown": {}
+      }
+    }
+  ],
+  "configuration": {
+    "provider_config": {
+      "aws": {
+        "name": "aws",
+        "full_name": "registry.terraform.io/hashicorp/aws",
+        "expressions": {
+          "region": {
+            "constant_value": "eu-west-2"
+          }
+        }
+      }
+    }
+  }
+}

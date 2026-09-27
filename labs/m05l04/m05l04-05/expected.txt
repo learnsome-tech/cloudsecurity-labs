@@ -1,0 +1,4 @@
+lineage 3f2c9a1e-8b7d-4c6a-9e15-2d4b7a0c1f88, serial 42
+aws_db_instance.payroll.password: marked sensitive, 30 characters in plain text
+output db_password: marked sensitive, contains a secret: True
+output db_url: not marked, contains a secret: True

@@ -1,0 +1,4 @@
+page  8 UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.OutsideAWS
+queue 2 Recon:EC2/PortProbeUnprotectedPort
+page  8 CryptoCurrency:EC2/BitcoinTool.B!DNS
+queue 2 Stealth:IAMUser/CloudTrailLoggingDisabled

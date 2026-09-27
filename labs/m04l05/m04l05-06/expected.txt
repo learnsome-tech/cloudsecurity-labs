@@ -1,0 +1,5 @@
+identity: 56 bytes, password readable: True
+  {"kind":"Secret","data":{"password":"ZXhhbXBsZS1vbmx5"}}
+aescbc: 103 bytes, password readable: False
+  k8s:enc:aescbc:v1:key1:...................*.....*(......h..J
+decrypted with key1: b'{"kind":"Secret","data":{"password":'

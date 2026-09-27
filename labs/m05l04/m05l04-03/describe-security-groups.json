@@ -1,0 +1,41 @@
+{
+  "SecurityGroups": [
+    {
+      "Description": "web tier",
+      "GroupName": "web",
+      "IpPermissions": [
+        {
+          "FromPort": 443,
+          "IpProtocol": "tcp",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0",
+              "Description": "HTTPS"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "ToPort": 443,
+          "UserIdGroupPairs": []
+        },
+        {
+          "FromPort": 22,
+          "IpProtocol": "tcp",
+          "IpRanges": [
+            {
+              "CidrIp": "0.0.0.0/0",
+              "Description": "temp debug"
+            }
+          ],
+          "Ipv6Ranges": [],
+          "PrefixListIds": [],
+          "ToPort": 22,
+          "UserIdGroupPairs": []
+        }
+      ],
+      "OwnerId": "111122223333",
+      "GroupId": "sg-0a1b2c3d4e5f60718",
+      "VpcId": "vpc-0123456789abcdef0"
+    }
+  ]
+}

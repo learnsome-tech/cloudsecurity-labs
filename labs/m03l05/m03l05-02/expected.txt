@@ -1,0 +1,6 @@
+CycloneDX 1.5 urn:uuid:425f015a-8dea-5df4-ac34-2e893df43eb9
+  pkg:pypi/certifi@2024.7.4
+  pkg:pypi/charset-normalizer@3.3.2
+  pkg:pypi/idna@3.7
+  pkg:pypi/requests@2.28.2
+  pkg:pypi/urllib3@1.26.15

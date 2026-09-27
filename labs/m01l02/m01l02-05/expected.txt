@@ -1,0 +1,7 @@
+management        o-a1b2c3d4e5/r-a1b2/                                 False
+log-archive       o-a1b2c3d4e5/r-a1b2/ou-a1b2-sec00001/                False
+security-tooling  o-a1b2c3d4e5/r-a1b2/ou-a1b2-sec00001/                False
+payments-prod     o-a1b2c3d4e5/r-a1b2/ou-a1b2-wkld0001/ou-a1b2-prod0001/ True
+payments-dev      o-a1b2c3d4e5/r-a1b2/ou-a1b2-wkld0001/ou-a1b2-dev00001/ True
+data-lake-prod    o-a1b2c3d4e5/r-a1b2/                                 False
+sandbox-jo        o-a1b2c3d4e5/r-a1b2/ou-a1b2-sbox0001/                False

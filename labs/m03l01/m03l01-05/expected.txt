@@ -1,0 +1,6 @@
+3d84f91 On-call: Revert "CHG-1042: open egress for vendor webhooks"
+86076dd Priya Shah: CHG-1042: open egress for vendor webhooks
+Approved-by: Sam Okafor
+Backout: git revert, no restart needed
+df7d329 Priya Shah: Egress: payments API only
+allow 198.51.100.0/24 tcp/443

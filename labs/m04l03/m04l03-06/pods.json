@@ -1,0 +1,67 @@
+{
+ "web": {
+  "ns": "shop",
+  "labels": {
+   "app": "web"
+  },
+  "ns_labels": {
+   "kubernetes.io/metadata.name": "shop"
+  }
+ },
+ "api": {
+  "ns": "shop",
+  "labels": {
+   "app": "api"
+  },
+  "ns_labels": {
+   "kubernetes.io/metadata.name": "shop"
+  }
+ },
+ "db": {
+  "ns": "shop",
+  "labels": {
+   "app": "db"
+  },
+  "ns_labels": {
+   "kubernetes.io/metadata.name": "shop"
+  }
+ },
+ "kube-dns": {
+  "ns": "kube-system",
+  "labels": {
+   "k8s-app": "kube-dns"
+  },
+  "ns_labels": {
+   "kubernetes.io/metadata.name": "kube-system"
+  }
+ },
+ "prometheus": {
+  "ns": "monitoring",
+  "labels": {
+   "app": "prometheus"
+  },
+  "ns_labels": {
+   "kubernetes.io/metadata.name": "monitoring",
+   "team": "monitoring"
+  }
+ },
+ "grafana": {
+  "ns": "monitoring",
+  "labels": {
+   "app": "grafana"
+  },
+  "ns_labels": {
+   "kubernetes.io/metadata.name": "monitoring",
+   "team": "monitoring"
+  }
+ },
+ "debug-shell": {
+  "ns": "shop",
+  "labels": {
+   "app": "prometheus"
+  },
+  "ns_labels": {
+   "kubernetes.io/metadata.name": "shop"
+  }
+ }
+}

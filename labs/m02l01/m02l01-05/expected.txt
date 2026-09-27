@@ -1,0 +1,4 @@
+s3:GetObject     example-app-data/reports/q3.csv  allow
+s3:DeleteBucket  example-app-data                 implicit deny
+s3:DeleteObject  example-app-data/reports/q3.csv  allow
+iam:CreateRole   role/app-reporting               allow

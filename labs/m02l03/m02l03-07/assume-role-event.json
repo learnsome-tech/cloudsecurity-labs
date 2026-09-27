@@ -1,0 +1,22 @@
+{
+  "eventTime": "2026-09-14T09:12:04Z",
+  "eventSource": "sts.amazonaws.com",
+  "eventName": "AssumeRole",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deployer/run-4812",
+    "accountId": "111122223333"
+  },
+  "sourceIPAddress": "203.0.113.24",
+  "requestParameters": {
+    "roleArn": "arn:aws:iam::444455556666:role/prod-deploy",
+    "roleSessionName": "run-4812",
+    "durationSeconds": 3600
+  },
+  "responseElements": {
+    "assumedRoleUser": {
+      "arn": "arn:aws:sts::444455556666:assumed-role/prod-deploy/run-4812"
+    }
+  },
+  "recipientAccountId": "444455556666"
+}

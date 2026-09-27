@@ -1,0 +1,9 @@
+who touched secrets
+09:20:03 system:serviceaccount:payments:api get payments/db-credentials 200
+09:22:15 dev-sam@example.com list payments/* 403
+09:22:31 dev-sam@example.com get kube-system/bootstrap-token-abcdef 403
+09:23:40 system:serviceaccount:payments:api get payments/db-credentials 200
+denied requests per user
+dev-sam@example.com 2
+shells opened inside pods
+dev-sam@example.com payments/api-7d9f8c6b5-x2kqp

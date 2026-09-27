@@ -1,0 +1,9 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {"Effect": "Allow", "Action": "s3:*", "Resource": "*"},
+    {"Effect": "Allow", "Action": "dynamodb:*",
+     "Resource": "arn:aws:dynamodb:eu-west-2:444455556666:table/*"},
+    {"Effect": "Allow", "Action": ["sqs:*", "kms:Decrypt"], "Resource": "*"}
+  ]
+}

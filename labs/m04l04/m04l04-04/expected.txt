@@ -1,0 +1,2 @@
+10:02:14.118320951: Warning Shell under web server (parent=gunicorn cmdline=sh -c id pod=web-7d9c)
+10:02:15.402117730: Error Token read (proc=cat file=/var/run/secrets/kubernetes.io/serviceaccount/token pod=web-7d9c)

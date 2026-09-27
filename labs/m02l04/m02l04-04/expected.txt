@@ -1,0 +1,5 @@
+granted 32, used 7, unused 25
+dynamodb 10 unused; destructive: DeleteItem DeleteTable
+kms       0 unused; destructive:
+s3       10 unused; destructive: DeleteBucket DeleteBucketPolicy DeleteObject PutBucketAcl PutBucketPolicy PutBucketPublicAccessBlock
+sqs       5 unused; destructive: DeleteMessage DeleteQueue PurgeQueue

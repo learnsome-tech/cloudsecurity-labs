@@ -1,0 +1,3 @@
+2026-09-14T09:13:40Z PutBucketPolicy by arn:aws:sts::444455556666:assumed-role/prod-deploy/run-4812
+2026-09-14T09:12:04Z AssumeRole from arn:aws:sts::111122223333:assumed-role/ci-deployer/run-4812
+2026-09-14T09:12:01Z AssumeRoleWithWebIdentity from WebIdentityUser repo:example-org/payments-api:environment:production

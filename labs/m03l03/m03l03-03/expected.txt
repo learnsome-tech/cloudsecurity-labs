@@ -1,0 +1,4 @@
+db.py:4  cur.execute("SELECT name FROM users WHERE id = %s" % user_id)
+db.py:8  cur.execute("SELECT id FROM users WHERE email = %s", (email,))
+db.py:17  # was: cur.execute("SELECT count(*) FROM %s" % table)
+db.py:18  cur.execute(f"SELECT count(*) FROM {table}")

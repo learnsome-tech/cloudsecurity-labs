@@ -1,0 +1,24 @@
+# Cloud Security & DevSecOps Engineering — lesson m04l05 — Securing the Kubernetes Control Plane & Node Components
+# https://learnsome.tech/courses/cloudsecurity-course/watch?lesson=m04l05
+# © LearnSome.tech
+# /etc/kubernetes/manifests/kube-apiserver.yaml (excerpt)
+apiVersion: v1
+kind: Pod
+metadata: {name: kube-apiserver, namespace: kube-system}
+spec:
+  hostNetwork: true
+  containers:
+  - name: kube-apiserver
+    command:
+    - kube-apiserver
+    - --advertise-address=192.0.2.10
+    - --allow-privileged=true
+    - --authorization-mode=Node,RBAC
+    - --client-ca-file=/etc/kubernetes/pki/ca.crt
+    - --enable-admission-plugins=NodeRestriction
+    - --etcd-servers=https://127.0.0.1:2379
+    - --etcd-cafile=/etc/kubernetes/pki/etcd/ca.crt
+    - --secure-port=6443
+    - --service-account-issuer=https://kubernetes.default.svc
+    - --tls-cert-file=/etc/kubernetes/pki/apiserver.crt
+    - --tls-private-key-file=/etc/kubernetes/pki/apiserver.key

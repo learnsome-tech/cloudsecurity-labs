@@ -1,0 +1,4 @@
+existing error   subprocess-shell-true   tools/export.py:88
+new      warning debug-enabled           app/main.py:12
+new      error   formatted-sql-query     app/db.py:47
+gate: 1 new error(s), merge blocked

@@ -1,0 +1,13 @@
+{"RouteTables": [
+ {"VpcId": "vpc-app", "Routes": [
+  {"DestinationCidrBlock": "10.1.0.0/16", "GatewayId": "local"},
+  {"DestinationCidrBlock": "10.2.0.0/16", "VpcPeeringConnectionId": "pcx-1a"},
+  {"DestinationCidrBlock": "10.3.0.0/16", "VpcPeeringConnectionId": "pcx-1a"}]},
+ {"VpcId": "vpc-hub", "Routes": [
+  {"DestinationCidrBlock": "10.2.0.0/16", "GatewayId": "local"},
+  {"DestinationCidrBlock": "10.1.0.0/16", "VpcPeeringConnectionId": "pcx-1a"},
+  {"DestinationCidrBlock": "10.3.0.0/16", "VpcPeeringConnectionId": "pcx-2b"}]},
+ {"VpcId": "vpc-data", "Routes": [
+  {"DestinationCidrBlock": "10.3.0.0/16", "GatewayId": "local"},
+  {"DestinationCidrBlock": "10.2.0.0/16", "VpcPeeringConnectionId": "pcx-2b"}]}
+]}

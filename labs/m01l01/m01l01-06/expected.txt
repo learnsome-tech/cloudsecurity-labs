@@ -1,0 +1,5 @@
+orders-exports-example   eu-central-1  eu-central-1  ok
+support-uploads-example  None          us-east-1     breaks EU residency
+invoices-2019-example    EU            eu-west-1     ok
+build-cache-example      us-west-2     us-west-2     ok
+ml-scratch-example       us-west-2     us-west-2     no data-class tag: cannot decide

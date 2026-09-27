@@ -1,0 +1,5 @@
+subject                                              exact org   aud-only
+repo:example-org/payments-api:environment:production True  True  True
+repo:example-org/payments-api:pull_request           False True  True
+repo:example-org/sandbox:ref:refs/heads/main         False True  True
+repo:someone-else/tools:ref:refs/heads/main          False False True

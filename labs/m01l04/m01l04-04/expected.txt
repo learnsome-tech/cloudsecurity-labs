@@ -1,0 +1,7 @@
+kube-apiserver anonymous-auth     false  true         fail false        ok
+kube-apiserver authorization-mode RBAC   AlwaysAllow  fail Node,RBAC    ok
+kube-apiserver profiling          false  true         fail false        ok
+kube-apiserver token-auth-file    -      /srv/tok.csv fail -            ok
+etcd           client-cert-auth   true   false        fail true         ok
+kubelet        anonymous-auth     false  true         fail false        ok
+kubelet        read-only-port     0      10255        fail 0            ok

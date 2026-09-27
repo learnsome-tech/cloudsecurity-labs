@@ -1,0 +1,30 @@
+{
+  "SchemaVersion": 2,
+  "ArtifactName": ".",
+  "ArtifactType": "filesystem",
+  "Results": [
+    {
+      "Target": "requirements.txt",
+      "Class": "lang-pkgs",
+      "Type": "pip",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2023-32681",
+          "PkgName": "requests",
+          "InstalledVersion": "2.28.2",
+          "FixedVersion": "2.31.0",
+          "Severity": "MEDIUM",
+          "Title": "Unintended leak of Proxy-Authorization header"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-43804",
+          "PkgName": "urllib3",
+          "InstalledVersion": "1.26.15",
+          "FixedVersion": "2.0.6, 1.26.17",
+          "Severity": "HIGH",
+          "Title": "Cookie request header isn't stripped during cross-origin redirects"
+        }
+      ]
+    }
+  ]
+}

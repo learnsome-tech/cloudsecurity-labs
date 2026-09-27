@@ -1,0 +1,46 @@
+[
+  {
+    "user": {
+      "name": "amara",
+      "team": "platform",
+      "mfa": false
+    },
+    "action": "delete",
+    "bucket": {
+      "name": "logs-archive",
+      "owner": "security"
+    }
+  },
+  {
+    "user": {
+      "name": "ben",
+      "team": "payments"
+    },
+    "action": "read",
+    "bucket": {
+      "name": "payments-exports",
+      "owner": "payments"
+    }
+  },
+  {
+    "user": {
+      "name": "ben",
+      "team": "payments"
+    },
+    "action": "read",
+    "bucket": {
+      "name": "hr-records",
+      "owner": "people"
+    }
+  },
+  {
+    "user": {
+      "name": "svc-backup"
+    },
+    "action": "read",
+    "bucket": {
+      "name": "hr-records",
+      "owner": "people"
+    }
+  }
+]

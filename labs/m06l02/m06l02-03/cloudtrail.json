@@ -1,0 +1,90 @@
+{
+ "Records": [
+  {
+   "eventTime": "2026-09-27T08:59:12Z",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAEXAMPLEROLEID:i-0a1b2c3d4e5f60718",
+    "arn": "arn:aws:sts::111122223333:assumed-role/app-server/i-0a1b2c3d4e5f60718",
+    "accountId": "111122223333"
+   },
+   "eventSource": "ssm.amazonaws.com",
+   "eventName": "GetParameters",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "198.51.100.20",
+   "userAgent": "aws-sdk-go-v2/1.30.3"
+  },
+  {
+   "eventTime": "2026-09-27T09:02:40Z",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAEXAMPLEROLEID:i-0a1b2c3d4e5f60718",
+    "arn": "arn:aws:sts::111122223333:assumed-role/app-server/i-0a1b2c3d4e5f60718",
+    "accountId": "111122223333"
+   },
+   "eventSource": "secretsmanager.amazonaws.com",
+   "eventName": "GetSecretValue",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "10.0.1.15",
+   "userAgent": "aws-sdk-go-v2/1.30.3",
+   "vpcEndpointId": "vpce-0123456789abcdef0"
+  },
+  {
+   "eventTime": "2026-09-27T09:05:00Z",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAEXAMPLEROLEID:i-0a1b2c3d4e5f60718",
+    "arn": "arn:aws:sts::111122223333:assumed-role/app-server/i-0a1b2c3d4e5f60718",
+    "accountId": "111122223333",
+    "invokedBy": "s3.amazonaws.com"
+   },
+   "eventSource": "kms.amazonaws.com",
+   "eventName": "Decrypt",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "s3.amazonaws.com",
+   "userAgent": "s3.amazonaws.com"
+  },
+  {
+   "eventTime": "2026-09-27T09:13:58Z",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAEXAMPLEROLEID:i-0a1b2c3d4e5f60718",
+    "arn": "arn:aws:sts::111122223333:assumed-role/app-server/i-0a1b2c3d4e5f60718",
+    "accountId": "111122223333"
+   },
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "GetCallerIdentity",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "203.0.113.99",
+   "userAgent": "aws-cli/2.17.20"
+  },
+  {
+   "eventTime": "2026-09-27T09:14:02Z",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAEXAMPLEROLEID:i-0a1b2c3d4e5f60718",
+    "arn": "arn:aws:sts::111122223333:assumed-role/app-server/i-0a1b2c3d4e5f60718",
+    "accountId": "111122223333"
+   },
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "203.0.113.99",
+   "userAgent": "aws-cli/2.17.20"
+  },
+  {
+   "eventTime": "2026-09-27T09:14:30Z",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAEXAMPLEROLEID:i-0a1b2c3d4e5f60718",
+    "arn": "arn:aws:sts::111122223333:assumed-role/app-server/i-0a1b2c3d4e5f60718",
+    "accountId": "111122223333"
+   },
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListAttachedRolePolicies",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "203.0.113.99",
+   "userAgent": "aws-cli/2.17.20"
+  }
+ ]
+}

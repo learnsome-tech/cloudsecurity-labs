@@ -1,0 +1,17 @@
+# Cloud Security & DevSecOps Engineering — lesson m01l04 — Security Landing Zones & Centralized Egress Inspection
+# https://learnsome.tech/courses/cloudsecurity-course/watch?lesson=m01l04
+# © LearnSome.tech
+apiVersion: v1
+kind: Pod
+metadata:
+  name: etcd
+  namespace: kube-system
+spec:
+  containers:
+  - name: etcd
+    command:
+    - etcd
+    - --listen-client-urls=https://127.0.0.1:2379,https://192.0.2.10:2379
+    - --cert-file=/etc/kubernetes/pki/etcd/server.crt
+    - --key-file=/etc/kubernetes/pki/etcd/server.key
+    - --client-cert-auth=true

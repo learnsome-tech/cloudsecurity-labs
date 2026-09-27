@@ -1,0 +1,12 @@
+[
+  {"Name": "orders-exports-example", "LocationConstraint": "eu-central-1",
+   "Tags": {"data-class": "customer-pii"}},
+  {"Name": "support-uploads-example", "LocationConstraint": null,
+   "Tags": {"data-class": "customer-pii"}},
+  {"Name": "invoices-2019-example", "LocationConstraint": "EU",
+   "Tags": {"data-class": "customer-pii"}},
+  {"Name": "build-cache-example", "LocationConstraint": "us-west-2",
+   "Tags": {"data-class": "internal"}},
+  {"Name": "ml-scratch-example", "LocationConstraint": "us-west-2",
+   "Tags": {}}
+]

@@ -1,0 +1,10 @@
+{
+ "alice@example.com": {
+  "id": "2819c223-7f76-453a-919d-413861904646",
+  "active": true
+ },
+ "bob@example.com": {
+  "id": "5d8e0a51-3b6f-4c2a-9e17-0f4b8c6d2a93",
+  "active": true
+ }
+}

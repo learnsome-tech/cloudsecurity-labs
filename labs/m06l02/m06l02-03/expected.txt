@@ -1,0 +1,5 @@
+08:59:12 198.51.100.20 GetParameters            own address
+09:02:40 10.0.1.15     GetSecretValue           own address
+09:13:58 203.0.113.99  GetCallerIdentity        off the instance
+09:14:02 203.0.113.99  ListBuckets              off the instance
+09:14:30 203.0.113.99  ListAttachedRolePolicies off the instance

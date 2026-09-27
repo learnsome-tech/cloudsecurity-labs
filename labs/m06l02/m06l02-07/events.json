@@ -1,0 +1,74 @@
+[
+ {
+  "version": "0",
+  "id": "4d3c2b1a-0000-4000-8000-000000000001",
+  "detail-type": "GuardDuty Finding",
+  "source": "aws.guardduty",
+  "account": "111122223333",
+  "time": "2026-09-27T09:20:00Z",
+  "region": "eu-west-2",
+  "resources": [],
+  "detail": {
+   "schemaVersion": "2.0",
+   "accountId": "111122223333",
+   "region": "eu-west-2",
+   "type": "UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.OutsideAWS",
+   "severity": 8,
+   "title": "Credentials for instance role app-server used from an external IP address."
+  }
+ },
+ {
+  "version": "0",
+  "id": "4d3c2b1a-0000-4000-8000-000000000002",
+  "detail-type": "GuardDuty Finding",
+  "source": "aws.guardduty",
+  "account": "111122223333",
+  "time": "2026-09-27T09:20:00Z",
+  "region": "eu-west-2",
+  "resources": [],
+  "detail": {
+   "schemaVersion": "2.0",
+   "accountId": "111122223333",
+   "region": "eu-west-2",
+   "type": "Recon:EC2/PortProbeUnprotectedPort",
+   "severity": 2,
+   "title": "Unprotected port on EC2 instance i-0f9e8d7c6b5a40321 is being probed."
+  }
+ },
+ {
+  "version": "0",
+  "id": "4d3c2b1a-0000-4000-8000-000000000003",
+  "detail-type": "GuardDuty Finding",
+  "source": "aws.guardduty",
+  "account": "111122223333",
+  "time": "2026-09-27T09:20:00Z",
+  "region": "eu-west-2",
+  "resources": [],
+  "detail": {
+   "schemaVersion": "2.0",
+   "accountId": "111122223333",
+   "region": "eu-west-2",
+   "type": "CryptoCurrency:EC2/BitcoinTool.B!DNS",
+   "severity": 8,
+   "title": "EC2 instance i-0f9e8d7c6b5a40321 is querying a domain name associated with Bitcoin activity."
+  }
+ },
+ {
+  "version": "0",
+  "id": "4d3c2b1a-0000-4000-8000-000000000004",
+  "detail-type": "GuardDuty Finding",
+  "source": "aws.guardduty",
+  "account": "111122223333",
+  "time": "2026-09-27T09:20:00Z",
+  "region": "eu-west-2",
+  "resources": [],
+  "detail": {
+   "schemaVersion": "2.0",
+   "accountId": "111122223333",
+   "region": "eu-west-2",
+   "type": "Stealth:IAMUser/CloudTrailLoggingDisabled",
+   "severity": 2,
+   "title": "AWS CloudTrail trail acct-trail was disabled."
+  }
+ }
+]

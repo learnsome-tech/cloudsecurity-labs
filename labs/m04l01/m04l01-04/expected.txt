@@ -1,0 +1,5 @@
+root.status: uid 0, NoNewPrivs 0, bounding 14, effective 14
+  CHOWN DAC_OVERRIDE FOWNER FSETID KILL SETGID SETUID SETPCAP
+  NET_BIND_SERVICE NET_RAW SYS_CHROOT MKNOD AUDIT_WRITE SETFCAP
+nonroot.status: uid 65532, NoNewPrivs 0, bounding 14, effective 0
+hardened.status: uid 65532, NoNewPrivs 1, bounding 0, effective 0

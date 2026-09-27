@@ -1,0 +1,5 @@
+ec2:RunInstances   allowed; IAM policies decide next
+s3:GetObject       allowed; IAM policies decide next
+kms:Decrypt        no Allow at Workloads
+logs:PutLogEvents  no Allow at Workloads
+sts:AssumeRole     no Allow at Workloads

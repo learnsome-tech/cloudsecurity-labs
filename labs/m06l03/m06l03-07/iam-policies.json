@@ -1,0 +1,6 @@
+{
+  "arn:aws:iam::111122223333:role/platform-admin": [
+    {"Effect": "Allow", "Action": ["kms:*"], "Resource": "*"}
+  ],
+  "arn:aws:iam::111122223333:role/payroll-app": []
+}

@@ -1,0 +1,19 @@
+{"OrganizationId": "o-a1b2c3d4e5", "MasterAccountId": "111111111111",
+ "Root": {"Id": "r-a1b2", "Name": "Root"},
+ "OrganizationalUnits": [
+  {"Id": "ou-a1b2-sec00001", "Name": "Security", "ParentId": "r-a1b2"},
+  {"Id": "ou-a1b2-wkld0001", "Name": "Workloads", "ParentId": "r-a1b2"},
+  {"Id": "ou-a1b2-prod0001", "Name": "Prod", "ParentId": "ou-a1b2-wkld0001"},
+  {"Id": "ou-a1b2-dev00001", "Name": "Dev", "ParentId": "ou-a1b2-wkld0001"},
+  {"Id": "ou-a1b2-sbox0001", "Name": "Sandbox", "ParentId": "r-a1b2"}],
+ "Accounts": [
+  {"Id": "111111111111", "Name": "management", "ParentId": "r-a1b2"},
+  {"Id": "222222222222", "Name": "log-archive", "ParentId": "ou-a1b2-sec00001"},
+  {"Id": "333333333333", "Name": "security-tooling",
+   "ParentId": "ou-a1b2-sec00001"},
+  {"Id": "444444444444", "Name": "payments-prod",
+   "ParentId": "ou-a1b2-prod0001"},
+  {"Id": "555555555555", "Name": "payments-dev",
+   "ParentId": "ou-a1b2-dev00001"},
+  {"Id": "666666666666", "Name": "data-lake-prod", "ParentId": "r-a1b2"},
+  {"Id": "777777777777", "Name": "sandbox-jo", "ParentId": "ou-a1b2-sbox0001"}]}

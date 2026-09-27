@@ -1,0 +1,5 @@
+english words  25 chars  3.36 bits per char
+placeholder    32 chars  0.00 bits per char
+git commit id  40 chars  3.87 bits per char
+uuid           36 chars  3.69 bits per char
+random base62  32 chars  4.52 bits per char

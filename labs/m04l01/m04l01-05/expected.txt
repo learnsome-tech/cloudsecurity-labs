@@ -1,0 +1,6 @@
+no-userns.uid_map: container uid     0 is host uid 0
+no-userns.uid_map: container uid 65532 is host uid 65532
+no-userns.uid_map: container uid 70000 is host uid 70000
+userns.uid_map: container uid     0 is host uid 100000
+userns.uid_map: container uid 65532 is host uid 165532
+userns.uid_map: container uid 70000 is not mapped

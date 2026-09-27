@@ -1,0 +1,22 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "EuRegionsOnly",
+      "Effect": "Deny",
+      "NotAction": [
+        "cloudfront:*", "iam:*", "organizations:*",
+        "route53:*", "sts:*", "support:*"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "StringNotEquals": {
+          "aws:RequestedRegion": ["eu-west-1", "eu-central-1"]
+        },
+        "ArnNotLike": {
+          "aws:PrincipalARN": "arn:aws:iam::*:role/platform-admin"
+        }
+      }
+    }
+  ]
+}

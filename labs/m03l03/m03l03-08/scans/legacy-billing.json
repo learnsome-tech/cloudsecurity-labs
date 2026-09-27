@@ -1,0 +1,10 @@
+{
+  "version": "1.95.0",
+  "results": [],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "billing/invoice.py"
+    ]
+  }
+}

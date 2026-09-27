@@ -1,0 +1,22 @@
+# Cloud Security & DevSecOps Engineering — lesson m04l03 — Kubernetes NetworkPolicies & Microsegmentation
+# https://learnsome.tech/courses/cloudsecurity-course/watch?lesson=m04l03
+# © LearnSome.tech
+# api-scrape, spec only. Version A: one peer, two selectors
+spec:
+  podSelector: {matchLabels: {app: api}}
+  policyTypes: [Ingress]
+  ingress:
+  - ports: [{port: 8081}]
+    from:
+    - namespaceSelector: {matchLabels: {team: monitoring}}
+      podSelector: {matchLabels: {app: prometheus}}
+---
+# Version B: the same lines with one extra dash
+spec:
+  podSelector: {matchLabels: {app: api}}
+  policyTypes: [Ingress]
+  ingress:
+  - ports: [{port: 8081}]
+    from:
+    - namespaceSelector: {matchLabels: {team: monitoring}}
+    - podSelector: {matchLabels: {app: prometheus}}

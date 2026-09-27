@@ -1,0 +1,17 @@
+{
+ "LAPTOP-0142": {
+  "owner": "alice@example.com",
+  "managed": true,
+  "disk_encrypted": true
+ },
+ "LAPTOP-0187": {
+  "owner": "bob@example.com",
+  "managed": true,
+  "disk_encrypted": true
+ },
+ "TABLET-7731": {
+  "owner": "alice@example.com",
+  "managed": false,
+  "disk_encrypted": true
+ }
+}

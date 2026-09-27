@@ -1,0 +1,5 @@
+sni updates.example.com  pass
+sni example.com          pass
+sni evilexample.com      drop
+sni pypi.org             pass
+sni paste.example.net    drop

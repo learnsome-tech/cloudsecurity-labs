@@ -1,0 +1,6 @@
+trust policy requires the ExternalId:
+  customer-4471, the owner  arn:aws:sts::444455556666:assumed-role/vendor-audit/scan
+  customer-9020, attacker   AccessDenied: the role's trust policy does not match
+trust policy without the condition:
+  customer-4471, the owner  arn:aws:sts::444455556666:assumed-role/vendor-audit/scan
+  customer-9020, attacker   arn:aws:sts::444455556666:assumed-role/vendor-audit/scan

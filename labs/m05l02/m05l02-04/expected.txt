@@ -1,0 +1,4 @@
+amara delete logs-archive: allow=True deny=['amara: delete without MFA']
+ben read payments-exports: allow=True deny=[]
+ben read hr-records: allow=False deny=[]
+svc-backup read hr-records: allow=False deny=[]

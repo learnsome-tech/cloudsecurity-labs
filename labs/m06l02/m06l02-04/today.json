@@ -1,0 +1,92 @@
+{
+ "Records": [
+  {
+   "eventTime": "2026-09-27T09:00:05Z",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAEXAMPLEUSERID01",
+    "arn": "arn:aws:iam::111122223333:user/build-bot",
+    "accountId": "111122223333",
+    "userName": "build-bot"
+   },
+   "eventSource": "ecs.amazonaws.com",
+   "eventName": "UpdateService",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "198.51.100.41",
+   "userAgent": "aws-cli/2.17.20"
+  },
+  {
+   "eventTime": "2026-09-27T09:31:10Z",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAEXAMPLEROLEID:dev-sam",
+    "arn": "arn:aws:sts::111122223333:assumed-role/Developer/dev-sam",
+    "accountId": "111122223333"
+   },
+   "eventSource": "logs.amazonaws.com",
+   "eventName": "GetLogEvents",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "203.0.113.24",
+   "userAgent": "aws-cli/2.17.20"
+  },
+  {
+   "eventTime": "2026-09-27T09:41:02Z",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAEXAMPLEUSERID01",
+    "arn": "arn:aws:iam::111122223333:user/build-bot",
+    "accountId": "111122223333",
+    "userName": "build-bot"
+   },
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "ListBuckets",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "192.0.2.77",
+   "userAgent": "aws-cli/2.17.20"
+  },
+  {
+   "eventTime": "2026-09-27T09:41:19Z",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAEXAMPLEUSERID01",
+    "arn": "arn:aws:iam::111122223333:user/build-bot",
+    "accountId": "111122223333",
+    "userName": "build-bot"
+   },
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketPolicy",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "192.0.2.77",
+   "userAgent": "aws-cli/2.17.20"
+  },
+  {
+   "eventTime": "2026-09-27T09:41:44Z",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAEXAMPLEUSERID01",
+    "arn": "arn:aws:iam::111122223333:user/build-bot",
+    "accountId": "111122223333",
+    "userName": "build-bot"
+   },
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListUsers",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "192.0.2.77",
+   "userAgent": "aws-cli/2.17.20"
+  },
+  {
+   "eventTime": "2026-09-27T10:02:30Z",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAEXAMPLEROLEID:dev-sam",
+    "arn": "arn:aws:sts::111122223333:assumed-role/Developer/dev-sam",
+    "accountId": "111122223333"
+   },
+   "eventSource": "lambda.amazonaws.com",
+   "eventName": "UpdateFunctionConfiguration",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "203.0.113.24",
+   "userAgent": "aws-cli/2.17.20"
+  }
+ ]
+}

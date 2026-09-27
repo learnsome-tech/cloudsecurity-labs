@@ -1,0 +1,5 @@
+learned 3 behaviours for registry.example.com/shop/web
+10:02:14.118320951 new: exec /bin/sh
+10:02:31.840227613 drift: binary not in the image: exec /tmp/.x/kworker
+10:02:32.001958340 new: connect 203.0.113.50:4444
+10:20:44.395148200 new: connect 192.0.2.30:6379

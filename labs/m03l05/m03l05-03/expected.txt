@@ -1,0 +1,3 @@
+registry.example.com/shop/api  urllib3 1.26.15  affected
+registry.example.com/shop/web  urllib3 2.0.4  affected
+registry.example.com/shop/worker  urllib3 1.26.18  not affected

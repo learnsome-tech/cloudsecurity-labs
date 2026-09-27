@@ -1,0 +1,4 @@
+cannot peer payments-dev with shared-services: 10.21.0.0/16 and 10.21.64.0/18
+cannot peer data-lake with ml-sandbox: 10.0.0.0/16 and 10.0.0.0/16
+cannot peer data-lake with vendor-scanner: 10.0.0.0/16 and 10.0.128.0/20
+cannot peer ml-sandbox with vendor-scanner: 10.0.0.0/16 and 10.0.128.0/20

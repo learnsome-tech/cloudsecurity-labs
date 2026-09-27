@@ -1,0 +1,2 @@
+platform/buckets/allow: {"result": false} naive=False closed=False
+platform/bucket/allow: {} naive=True closed=False

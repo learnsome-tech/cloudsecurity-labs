@@ -1,0 +1,22 @@
+{
+  "format_version": "1.2",
+  "terraform_version": "1.9.5",
+  "resource_changes": [
+    {
+      "address": "aws_db_instance.payroll",
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "change": {
+        "actions": ["delete", "create"],
+        "before": {"storage_encrypted": false,
+                   "tags": {"data_classification": "restricted"}},
+        "after": {"storage_encrypted": true,
+                  "tags": {"data_classification": "restricted"}},
+        "after_unknown": {"arn": true, "endpoint": true},
+        "replace_paths": [["storage_encrypted"]]
+      }
+    }
+  ],
+  "configuration": {"provider_config": {"aws": {"expressions":
+    {"region": {"constant_value": "eu-west-2"}}}}}
+}

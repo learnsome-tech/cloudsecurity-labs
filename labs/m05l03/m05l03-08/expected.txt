@@ -1,0 +1,8 @@
+no-op  aws_db_instance.payroll
+create  aws_db_instance.payroll_v2
+create  aws_ebs_volume.scratch
+create  aws_sqs_queue.events
+update  aws_s3_bucket.site_assets
+aws_db_instance.payroll: sensitive data not encrypted at rest
+1 violation(s) in 5 changes
+exit code 1

@@ -1,0 +1,6 @@
+RunInstances      eu-west-1 developer      allowed; IAM policies decide next
+RunInstances      us-west-2 developer      denied by EuRegionsOnly (Workloads)
+CreateRole        us-east-1 developer      allowed; IAM policies decide next
+StopLogging       eu-west-1 developer      denied by ProtectCloudTrail (Prod)
+StopLogging       eu-west-1 platform-admin allowed; IAM policies decide next
+LeaveOrganization us-east-1 platform-admin denied by DenyLeaveOrg (Root)

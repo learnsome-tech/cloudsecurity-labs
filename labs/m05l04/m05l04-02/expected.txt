@@ -1,0 +1,2 @@
++ aws_security_group.web ingress ('tcp', 22, 22, '0.0.0.0/0')
+state serial 42: drift

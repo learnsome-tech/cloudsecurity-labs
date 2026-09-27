@@ -1,0 +1,12 @@
+web-pod.json at baseline: allowed
+web-pod.json at restricted: forbidden
+  allowPrivilegeEscalation != false (container "app")
+  unrestricted capabilities (container "app")
+  runAsNonRoot != true (container "app")
+  seccompProfile (container "app")
+hardened-pod.json at baseline: allowed
+hardened-pod.json at restricted: allowed
+log-agent.json at baseline: forbidden
+  host namespaces (hostPID=true)
+  hostPath volumes (volume "varlog")
+  privileged (container "agent")

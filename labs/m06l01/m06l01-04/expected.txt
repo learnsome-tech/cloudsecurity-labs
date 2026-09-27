@@ -1,0 +1,3 @@
+as delivered: signature valid, changed []
+record deleted: signature valid, changed ['Kx9d.json']
+digest rewritten: signature invalid, changed []

@@ -1,0 +1,14 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {"Sid": "AppData", "Effect": "Allow",
+     "Action": ["s3:GetObject", "s3:PutObject", "s3:DeleteObject"],
+     "Resource": "arn:aws:s3:::example-app-data/*"},
+    {"Sid": "NoDeleteWithoutMfa", "Effect": "Deny",
+     "Action": "s3:DeleteObject", "Resource": "*",
+     "Condition": {"Bool": {"aws:MultiFactorAuthPresent": "false"}}},
+    {"Sid": "BuildAppRoles", "Effect": "Allow",
+     "Action": ["iam:CreateRole", "iam:AttachRolePolicy", "iam:PassRole"],
+     "Resource": "arn:aws:iam::111122223333:role/app-*"}
+  ]
+}

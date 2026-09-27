@@ -1,0 +1,6 @@
+web      -> api:8080         egress True  ingress True  allowed
+web      -> db:5432          egress True  ingress False blocked
+api      -> db:5432          egress True  ingress True  allowed
+api      -> kube-dns:53      egress True  ingress True  allowed
+db       -> grafana:3000     egress False ingress True  blocked
+grafana  -> web:8080         egress True  ingress False blocked

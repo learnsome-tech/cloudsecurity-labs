@@ -1,0 +1,4 @@
+aws_db_instance.payroll: plan destroys restricted data
+aws_ebs_volume.scratch: sensitive data not encrypted at rest
+aws_sqs_queue.events: no data_classification tag
+3 violation(s) in 4 changes

@@ -1,0 +1,16 @@
+{
+  "id": "GHSA-v845-jxx5-vc9f",
+  "aliases": ["CVE-2023-43804"],
+  "summary": "Cookie HTTP header isn't stripped on cross-origin redirects",
+  "affected": [{
+    "package": {"ecosystem": "PyPI", "name": "urllib3"},
+    "ranges": [{
+      "type": "ECOSYSTEM",
+      "events": [
+        {"introduced": "0"}, {"fixed": "1.26.17"},
+        {"introduced": "2.0.0"}, {"fixed": "2.0.6"}
+      ]
+    }]
+  }],
+  "database_specific": {"severity": "HIGH"}
+}

@@ -1,0 +1,16 @@
+# Cloud Security & DevSecOps Engineering — lesson m04l02 — Kubernetes Pod Security Standards: Baseline & Restricted
+# https://learnsome.tech/courses/cloudsecurity-course/watch?lesson=m04l02
+# © LearnSome.tech
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: shop
+  labels:
+    # Block pods that break Baseline, judged by the v1.34 rules
+    pod-security.kubernetes.io/enforce: baseline
+    pod-security.kubernetes.io/enforce-version: v1.34
+    # Report, without blocking, what Restricted would reject
+    pod-security.kubernetes.io/warn: restricted
+    pod-security.kubernetes.io/warn-version: latest
+    pod-security.kubernetes.io/audit: restricted
+    pod-security.kubernetes.io/audit-version: latest

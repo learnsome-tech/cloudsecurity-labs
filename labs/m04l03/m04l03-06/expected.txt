@@ -1,0 +1,6 @@
+scrape-and.json: prometheus in monitoring -> api:8081 allowed
+scrape-and.json: grafana in monitoring -> api:8081 blocked
+scrape-and.json: debug-shell in shop -> api:8081 blocked
+scrape-or.json: prometheus in monitoring -> api:8081 allowed
+scrape-or.json: grafana in monitoring -> api:8081 allowed
+scrape-or.json: debug-shell in shop -> api:8081 allowed

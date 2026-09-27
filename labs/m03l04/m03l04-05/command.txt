@@ -1,0 +1,1 @@
+python3 sca_gate.py report.json

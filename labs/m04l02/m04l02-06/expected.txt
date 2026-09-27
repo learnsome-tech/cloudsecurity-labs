@@ -1,0 +1,11 @@
+web-7d9c6b5f4-x2kqp      baseline 0   restricted 4
+web-7d9c6b5f4-m8vzt      baseline 0   restricted 4
+orders-worker-0          baseline 0   restricted 2
+node-exporter-9fz4d      baseline 3   restricted 6
+checks to fix before enforce=restricted:
+  4 x unrestricted capabilities
+  4 x seccompProfile
+  3 x allowPrivilegeEscalation != false
+  2 x runAsNonRoot != true
+  2 x host namespaces
+  1 x hostPath volumes

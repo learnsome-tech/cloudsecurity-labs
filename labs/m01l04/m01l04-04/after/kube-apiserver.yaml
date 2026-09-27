@@ -1,0 +1,22 @@
+# Cloud Security & DevSecOps Engineering — lesson m01l04 — Security Landing Zones & Centralized Egress Inspection
+# https://learnsome.tech/courses/cloudsecurity-course/watch?lesson=m01l04
+# © LearnSome.tech
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kube-apiserver
+  namespace: kube-system
+spec:
+  containers:
+  - name: kube-apiserver
+    image: registry.k8s.io/kube-apiserver:v1.33.2
+    command:
+    - kube-apiserver
+    - --advertise-address=192.0.2.10
+    - --anonymous-auth=false
+    - --authorization-mode=Node,RBAC
+    - --etcd-servers=https://127.0.0.1:2379
+    - --profiling=false
+    - --audit-log-path=/var/log/kubernetes/audit.log
+    - --tls-cert-file=/etc/kubernetes/pki/apiserver.crt
+    - --tls-private-key-file=/etc/kubernetes/pki/apiserver.key

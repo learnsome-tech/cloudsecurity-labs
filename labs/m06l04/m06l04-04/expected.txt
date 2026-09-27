@@ -1,0 +1,13 @@
+NON_COMPLIANT bastion-ssh
+  port 22 open to 0.0.0.0/0
+COMPLIANT web-alb
+NON_COMPLIANT debug-temp
+  port 22 open to ::/0
+  port 3389 open to ::/0
+COMPLIANT vendor-rdp
+NON_COMPLIANT example-payroll-exports
+  blockPublicPolicy is off
+  restrictPublicBuckets is off
+NON_COMPLIANT example-marketing-site
+  blockPublicPolicy is off
+  restrictPublicBuckets is off

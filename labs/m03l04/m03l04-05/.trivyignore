@@ -1,0 +1,3 @@
+# urllib3 cookie leak: we never set Cookie headers by hand.
+# Owner: team-payments. Review before the expiry date.
+CVE-2023-43804 exp:2026-06-30

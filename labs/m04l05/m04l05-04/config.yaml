@@ -1,0 +1,19 @@
+# Cloud Security & DevSecOps Engineering — lesson m04l05 — Securing the Kubernetes Control Plane & Node Components
+# https://learnsome.tech/courses/cloudsecurity-course/watch?lesson=m04l05
+# © LearnSome.tech
+# /var/lib/kubelet/config.yaml (excerpt)
+apiVersion: kubelet.config.k8s.io/v1beta1
+kind: KubeletConfiguration
+authentication:
+  anonymous:
+    enabled: false        # no unauthenticated calls to port 10250
+  webhook:
+    enabled: true         # bearer tokens are checked with the API server
+  x509:
+    clientCAFile: /etc/kubernetes/pki/ca.crt
+authorization:
+  mode: Webhook           # ask the API server: may this caller exec?
+readOnlyPort: 0           # keep the unauthenticated port 10255 closed
+rotateCertificates: true
+serverTLSBootstrap: true  # serving cert signed by the cluster CA
+protectKernelDefaults: true

@@ -1,0 +1,4 @@
+before: 200 payroll for alice@example.com
+SCIM PATCH: 204
+after:  403 account is disabled in the directory
+alice's token is still valid for 43 minutes

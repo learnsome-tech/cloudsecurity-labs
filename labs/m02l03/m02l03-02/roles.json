@@ -1,0 +1,17 @@
+[
+  {"Role": {"RoleName": "prod-deploy",
+    "Arn": "arn:aws:iam::444455556666:role/prod-deploy",
+    "MaxSessionDuration": 3600,
+    "AssumeRolePolicyDocument": {"Statement": [{
+      "Effect": "Allow", "Action": "sts:AssumeRole",
+      "Principal": {"AWS": "arn:aws:iam::111122223333:role/ci-deployer"}
+    }]}}},
+  {"Role": {"RoleName": "vendor-audit",
+    "Arn": "arn:aws:iam::444455556666:role/vendor-audit",
+    "MaxSessionDuration": 43200,
+    "AssumeRolePolicyDocument": {"Statement": [{
+      "Effect": "Allow", "Action": "sts:AssumeRole",
+      "Principal": {"AWS": "arn:aws:iam::777788889999:root"},
+      "Condition": {"StringEquals": {"sts:ExternalId": "ex-customer-4471"}}
+    }]}}}
+]

@@ -1,0 +1,4 @@
+reporting-app  no known path
+ci-deployer    Lambda runs as a passed role
+platform-ops   new version of a policy; attach a policy to a role; EC2 runs as a passed role
+data-analyst   no known path

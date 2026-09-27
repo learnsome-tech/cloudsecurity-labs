@@ -1,0 +1,9 @@
+dynamodb:GetItem, dynamodb:Query on table/orders
+kms:Decrypt on key/1234abcd-12ab-34cd-56ef-1234567890ab
+s3:ListBucket on example-reports
+s3:PutObject on example-reports/exports/*
+s3:GetObject on example-reports/monthly/*
+sqs:SendMessage on report-ready
+s3:GetObject     example-reports/monthly/2026-10.csv  allow
+s3:GetObject     example-payroll/2026-09.csv          implicit deny
+s3:DeleteBucket  example-reports                      implicit deny

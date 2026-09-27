@@ -1,0 +1,27 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-09-27T09:00:00Z",
+    "component": {
+      "type": "container",
+      "name": "registry.example.com/shop/reports",
+      "version": "0.7.3"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "2.2.2",
+      "purl": "pkg:pypi/pandas@2.2.2"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "1.26.4",
+      "purl": "pkg:pypi/numpy@1.26.4"
+    }
+  ]
+}

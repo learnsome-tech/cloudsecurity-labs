@@ -1,0 +1,10 @@
+{'alg': 'RS256', 'typ': 'JWT', 'kid': 'demo-key'}
+  iss  https://token.actions.githubusercontent.com
+  aud  sts.amazonaws.com
+  sub  repo:example-org/payments-api:environment:production
+  iat  1789999700
+  exp  1790000000
+genuine         accepted
+edited sub      rejected: signature
+other audience  rejected: audience
+expired         rejected: expiry

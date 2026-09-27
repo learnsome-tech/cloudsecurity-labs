@@ -1,0 +1,5 @@
+payroll-app    kms:Decrypt              payroll  allow (key policy)
+payroll-app    kms:Decrypt              hr       implicit deny
+platform-admin kms:Decrypt              payroll  implicit deny
+platform-admin kms:ScheduleKeyDeletion  -        allow (IAM, trusted by key policy)
+platform-admin kms:PutKeyPolicy         -        allow (IAM, trusted by key policy)

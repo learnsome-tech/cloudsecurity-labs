@@ -1,0 +1,16 @@
+title = "example-org secret scanning"
+
+[extend]
+useDefault = true          # keep the built-in rules, add ours below
+
+[[rules]]
+id = "exampleorg-api-token"
+description = "Example Org internal API token"
+regex = '''\b(exmp_[A-Za-z0-9]{32})\b'''
+secretGroup = 1
+entropy = 3.5
+keywords = ["exmp_"]
+
+[allowlist]
+description = "Fixtures hold deliberately fake tokens"
+paths = ['''^tests/fixtures/''']

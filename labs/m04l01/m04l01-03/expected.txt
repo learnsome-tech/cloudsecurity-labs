@@ -1,0 +1,2 @@
+slim ['resizing cat.png', 'attacker command ran']
+distroless exec failed: No such file or directory distroless/bin/sh

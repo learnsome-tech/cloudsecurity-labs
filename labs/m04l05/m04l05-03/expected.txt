@@ -1,0 +1,9 @@
+fail anonymous-auth=false
+pass authorization-mode has Node and RBAC
+pass authorization-mode has no AlwaysAllow
+pass NodeRestriction admission plugin
+fail profiling=false
+fail audit-log-path set
+fail encryption-provider-config set
+fail kubelet CA set
+5 of 8 checks fail

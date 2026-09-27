@@ -1,0 +1,115 @@
+{
+ "Records": [
+  {
+   "eventVersion": "1.08",
+   "userIdentity": {
+    "type": "WebIdentityUser",
+    "principalId": "arn:aws:iam::111122223333:oidc-provider/token.actions.githubusercontent.com:sts.amazonaws.com:repo:example-org/payments-api:environment:production",
+    "userName": "repo:example-org/payments-api:environment:production",
+    "identityProvider": "arn:aws:iam::111122223333:oidc-provider/token.actions.githubusercontent.com"
+   },
+   "eventTime": "2026-09-14T09:12:01Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRoleWithWebIdentity",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "203.0.113.24",
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::111122223333:role/ci-deployer",
+    "roleSessionName": "run-4812"
+   },
+   "responseElements": {
+    "assumedRoleUser": {
+     "assumedRoleId": "AROAEXAMPLECIDEPLOYER:run-4812",
+     "arn": "arn:aws:sts::111122223333:assumed-role/ci-deployer/run-4812"
+    }
+   },
+   "recipientAccountId": "111122223333"
+  },
+  {
+   "eventVersion": "1.08",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/AWSReservedSSO_ReadOnly_0a1b2c3d4e5f6a7b/alice@example.com",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-09-14T09:12:03Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "198.51.100.7",
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::444455556666:role/prod-readonly",
+    "roleSessionName": "alice@example.com",
+    "durationSeconds": 3600
+   },
+   "responseElements": {
+    "assumedRoleUser": {
+     "assumedRoleId": "AROAEXAMPLEREADONLY:alice@example.com",
+     "arn": "arn:aws:sts::444455556666:assumed-role/prod-readonly/alice@example.com"
+    }
+   },
+   "recipientAccountId": "444455556666"
+  },
+  {
+   "eventVersion": "1.08",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::111122223333:assumed-role/ci-deployer/run-4812",
+    "accountId": "111122223333"
+   },
+   "eventTime": "2026-09-14T09:12:04Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "203.0.113.24",
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::444455556666:role/prod-deploy",
+    "roleSessionName": "run-4812",
+    "durationSeconds": 3600
+   },
+   "responseElements": {
+    "assumedRoleUser": {
+     "assumedRoleId": "AROAEXAMPLEPRODDEPLOY:run-4812",
+     "arn": "arn:aws:sts::444455556666:assumed-role/prod-deploy/run-4812"
+    }
+   },
+   "recipientAccountId": "444455556666"
+  },
+  {
+   "eventVersion": "1.08",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::444455556666:assumed-role/prod-readonly/alice@example.com",
+    "accountId": "444455556666"
+   },
+   "eventTime": "2026-09-14T09:13:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketPolicy",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "198.51.100.7",
+   "requestParameters": {
+    "bucketName": "example-prod-assets"
+   },
+   "responseElements": null,
+   "recipientAccountId": "444455556666"
+  },
+  {
+   "eventVersion": "1.08",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::444455556666:assumed-role/prod-deploy/run-4812",
+    "accountId": "444455556666"
+   },
+   "eventTime": "2026-09-14T09:13:40Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutBucketPolicy",
+   "awsRegion": "eu-west-2",
+   "sourceIPAddress": "203.0.113.24",
+   "requestParameters": {
+    "bucketName": "example-prod-assets"
+   },
+   "responseElements": null,
+   "recipientAccountId": "444455556666"
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+original image: signed digest matches, admit
+tag moved to a new image: valid signature for another digest, reject
+payload edited to match: signature does not verify, reject

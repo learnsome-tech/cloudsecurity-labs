@@ -1,0 +1,5 @@
+describe-security-groups.json: drift, ticket opened for the owning team
++ aws_security_group.web ingress ('tcp', 22, 22, '0.0.0.0/0')
+state serial 42: drift
+describe-never-arrived.json: check failed, status unknown, paging on-call
+FileNotFoundError: [Errno 2] No such file or directory: 'describe-never-arrived.json'

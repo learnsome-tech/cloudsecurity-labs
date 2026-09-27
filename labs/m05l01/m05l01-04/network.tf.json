@@ -1,0 +1,72 @@
+{
+  "resource": {
+    "aws_security_group": {
+      "bastion": {
+        "name": "bastion-ssh",
+        "vpc_id": "${var.vpc_id}",
+        "ingress": [
+          {
+            "description": "SSH for the on-call engineer",
+            "from_port": 22,
+            "to_port": 22,
+            "protocol": "tcp",
+            "cidr_blocks": [
+              "0.0.0.0/0"
+            ],
+            "ipv6_cidr_blocks": []
+          }
+        ]
+      },
+      "admin": {
+        "name": "admin-tools",
+        "vpc_id": "${var.vpc_id}",
+        "ingress": [
+          {
+            "description": "admin tools, all TCP",
+            "from_port": 0,
+            "to_port": 65535,
+            "protocol": "tcp",
+            "cidr_blocks": [],
+            "ipv6_cidr_blocks": [
+              "::/0"
+            ]
+          }
+        ]
+      },
+      "office": {
+        "name": "office-ssh",
+        "vpc_id": "${var.vpc_id}",
+        "ingress": [
+          {
+            "description": "SSH from the office",
+            "from_port": 22,
+            "to_port": 22,
+            "protocol": "tcp",
+            "cidr_blocks": [
+              "203.0.113.0/24"
+            ],
+            "ipv6_cidr_blocks": []
+          }
+        ]
+      },
+      "web": {
+        "name": "web-https",
+        "vpc_id": "${var.vpc_id}",
+        "ingress": [
+          {
+            "description": "public HTTPS",
+            "from_port": 443,
+            "to_port": 443,
+            "protocol": "tcp",
+            "cidr_blocks": [
+              "0.0.0.0/0"
+            ],
+            "ipv6_cidr_blocks": [
+              "::/0"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

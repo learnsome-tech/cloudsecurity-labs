@@ -1,0 +1,31 @@
+{
+  "version": "1.95.0",
+  "results": [
+    {
+      "check_id": "sql-built-from-strings",
+      "path": "site/signup.py",
+      "start": {
+        "line": 31,
+        "col": 5,
+        "offset": 0
+      },
+      "end": {
+        "line": 31,
+        "col": 60,
+        "offset": 0
+      },
+      "extra": {
+        "message": "SQL text is built from strings.",
+        "severity": "ERROR",
+        "metadata": {},
+        "lines": "requires login"
+      }
+    }
+  ],
+  "errors": [],
+  "paths": {
+    "scanned": [
+      "site/signup.py"
+    ]
+  }
+}

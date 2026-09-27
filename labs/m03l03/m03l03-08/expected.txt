@@ -1,0 +1,5 @@
+legacy-billing: decommissioned but still building
+payments-api: 2 error(s) for team-payments, data is confidential
+promo-site: scanned but not in the inventory, nobody owns it
+reporting-jobs: 0 error(s) for team-data, data is confidential
+web-frontend: active and never scanned, ask team-web

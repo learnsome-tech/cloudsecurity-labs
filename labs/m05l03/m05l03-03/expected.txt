@@ -1,0 +1,6 @@
+delete+create  aws_db_instance.payroll  restricted
+create  aws_ebs_volume.scratch  confidential
+create  aws_sqs_queue.events  none
+update  aws_s3_bucket.site_assets  public
+aws_db_instance.payroll replaced because of [["storage_encrypted"]]
+{"arn":true,"id":true,"kms_key_id":true}

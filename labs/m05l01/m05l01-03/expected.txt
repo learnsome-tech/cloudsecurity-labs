@@ -1,0 +1,6 @@
+CKV_AWS_24 FAILED aws_security_group.bastion
+  SSH for the on-call engineer: ports 22-22
+CKV_AWS_24 FAILED aws_security_group.admin
+  admin tools, all TCP: ports 0-65535
+CKV_AWS_24 PASSED aws_security_group.office
+CKV_AWS_24 PASSED aws_security_group.web
