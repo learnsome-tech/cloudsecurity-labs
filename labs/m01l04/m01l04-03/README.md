@@ -23,6 +23,9 @@ In the lesson: Landing zones increasingly vend Kubernetes clusters too, and the 
    - Lines 15–19: token auth file
 3. Edit `kube-apiserver.yaml` and check it: `kubeconform -strict -summary kube-apiserver.yaml`.
 4. Check it from the repository root: `./check m01l04-03`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l04-03 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary kube-apiserver.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary kube-apiserver.yaml`
 
 ## How to check
 

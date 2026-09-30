@@ -26,6 +26,9 @@ In the lesson: Start every namespace with a default deny. An empty pod selector 
    - Line 18: Set by the API server on every namespace, cannot be spoofed
 4. Edit `default-deny.yaml` and check it: `kubeconform -strict -summary default-deny.yaml`.
 5. Check it from the repository root: `./check m04l03-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l03-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary default-deny.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary default-deny.yaml`
 
 ## How to check
 

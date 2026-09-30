@@ -27,6 +27,9 @@ In the lesson: Custom rules belong in falco rules dot local dot yaml, which load
    - Line 12: One of eight syslog-style priorities
 4. Edit `falco_rules.local.yaml` and check it: `yamllint falco_rules.local.yaml`.
 5. Check it from the repository root: `./check m04l04-03`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l04-03 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed falco_rules.local.yaml`
+   - `strict` (Lint strictly): `yamllint falco_rules.local.yaml`
 
 ## How to check
 

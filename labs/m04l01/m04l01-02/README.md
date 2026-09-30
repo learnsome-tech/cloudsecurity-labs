@@ -28,6 +28,9 @@ In the lesson: The build stage uses a normal slim Python image, because installi
    - Line 14: Exec form: no bin sh needed to start the process
 4. Edit `Dockerfile` and check it: `hadolint Dockerfile`.
 5. Check it from the repository root: `./check m04l01-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l01-02 --command=<id>`:
+   - `lint` (Lint): `hadolint Dockerfile`
+   - `strict` (Lint strictly): `hadolint --failure-threshold info Dockerfile`
 
 ## How to check
 

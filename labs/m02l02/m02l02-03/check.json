@@ -15,5 +15,13 @@
   "requires": [
     "actionlint"
   ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint deploy.yml"
+    }
+  ],
   "note": null
 }

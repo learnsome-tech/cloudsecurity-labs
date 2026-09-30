@@ -26,6 +26,9 @@ In the lesson: The kubelet is the more dangerous one, because it runs on every n
    - Line 12: Default for a bare kubelet binary is AlwaysAllow
 4. Edit `config.yaml` and check it: `kubeconform -strict -summary config.yaml`.
 5. Check it from the repository root: `./check m04l05-04`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l05-04 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary config.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary config.yaml`
 
 ## How to check
 

@@ -25,6 +25,9 @@ In the lesson: Base sixty four is not encryption, and by default a Secret sits i
    - Line 7: Order matters: the first provider writes, all of them read
 4. Edit `enc.yaml` and check it: `kubeconform -strict -summary enc.yaml`.
 5. Check it from the repository root: `./check m04l05-05`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l05-05 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary enc.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary enc.yaml`
 
 ## How to check
 

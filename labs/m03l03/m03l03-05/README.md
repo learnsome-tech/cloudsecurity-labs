@@ -26,6 +26,9 @@ In the lesson: Semgrep is not installed on this machine, so here is its rule fil
    - Line 17: ... on its own line: any statements in between
 4. Edit `sql-format.yml` and check it: `yamllint sql-format.yml`.
 5. Check it from the repository root: `./check m03l03-05`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m03l03-05 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed sql-format.yml`
+   - `strict` (Lint strictly): `yamllint sql-format.yml`
 
 ## How to check
 

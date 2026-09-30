@@ -22,6 +22,9 @@ In the lesson: Endpoints also carry policies, and together with a bucket policy 
    - Lines 13–20: the bucket policy
 3. Edit `perimeter.yaml` and check it: `yamllint perimeter.yaml`.
 4. Check it from the repository root: `./check m01l05-06`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m01l05-06 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed perimeter.yaml`
+   - `strict` (Lint strictly): `yamllint perimeter.yaml`
 
 ## How to check
 

@@ -22,6 +22,9 @@ In the lesson: Built in checks cover what everyone agrees on. Your own rules, su
    - Lines 6–16: the definition joins two attribute conditions
 3. Edit `data_classification.yaml` and check it: `yamllint data_classification.yaml`.
 4. Check it from the repository root: `./check m05l01-05`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m05l01-05 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed data_classification.yaml`
+   - `strict` (Lint strictly): `yamllint data_classification.yaml`
 
 ## How to check
 

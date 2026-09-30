@@ -23,6 +23,13 @@ In the lesson: Protection starts with the backend. This S three backend stores s
    - Lines 11–16: the comments list what the bucket itself needs
 3. Edit `backend.tf` and check it: `terraform init; terraform validate`.
 4. Check it from the repository root: `./check m05l04-06`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m05l04-06 --command=<id>`:
+   - `validate` (Validate): `terraform validate`
+   - `init` (Init): `terraform init`
+   - `plan` (Plan): `terraform plan`
+   - `apply` (Apply): `terraform apply -auto-approve`
+   - `fmt` (Format check): `terraform fmt -check -diff`
+   - `output` (Output): `terraform apply -auto-approve && terraform output`
 
 ## How to check
 

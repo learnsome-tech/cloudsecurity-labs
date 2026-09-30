@@ -25,6 +25,9 @@ In the lesson: The policy is an ordered list of rules, and the first rule that m
    - Lines 19–20: the last rule is the catch all
 3. Edit `audit-policy.yaml` and check it: `kubeconform -strict -summary audit-policy.yaml`.
 4. Check it from the repository root: `./check m06l01-07`.
+5. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m06l01-07 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary audit-policy.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary audit-policy.yaml`
 
 ## How to check
 

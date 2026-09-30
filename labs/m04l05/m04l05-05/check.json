@@ -15,5 +15,18 @@
   "requires": [
     "kubeconform"
   ],
+  "tool": "kubeconform",
+  "commands": [
+    {
+      "id": "validate",
+      "label": "Validate",
+      "line": "kubeconform -strict -summary enc.yaml"
+    },
+    {
+      "id": "verbose",
+      "label": "Validate each resource",
+      "line": "kubeconform -strict -verbose -summary enc.yaml"
+    }
+  ],
   "note": null
 }

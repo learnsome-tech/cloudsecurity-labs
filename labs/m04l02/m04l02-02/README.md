@@ -26,6 +26,9 @@ In the lesson: The shop namespace carries six labels, all under the pod security
    - Line 10: Warnings come back to kubectl at apply time
 4. Edit `namespace.yaml` and check it: `kubeconform -strict -summary namespace.yaml`.
 5. Check it from the repository root: `./check m04l02-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l02-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary namespace.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary namespace.yaml`
 
 ## How to check
 

@@ -25,6 +25,9 @@ In the lesson: Prometheus in the monitoring namespace needs to scrape the A P I'
    - Line 19: Dash: a second peer, either one is enough
 4. Edit `scrape.yaml` and check it: `yamllint scrape.yaml`.
 5. Check it from the repository root: `./check m04l03-05`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l03-05 --command=<id>`:
+   - `lint` (Lint): `yamllint -d relaxed scrape.yaml`
+   - `strict` (Lint strictly): `yamllint scrape.yaml`
 
 ## How to check
 

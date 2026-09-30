@@ -26,6 +26,9 @@ In the lesson: On a kubeadm cluster the A P I server runs as a static pod. The k
    - Line 15: Stops a kubelet editing other nodes or labelling itself
 4. Edit `kube-apiserver.yaml` and check it: `kubeconform -strict -summary kube-apiserver.yaml`.
 5. Check it from the repository root: `./check m04l05-02`.
+6. The site offers these commands for this lab; the first is the default, and the only one graded. Run another with `./check m04l05-02 --command=<id>`:
+   - `validate` (Validate): `kubeconform -strict -summary kube-apiserver.yaml`
+   - `verbose` (Validate each resource): `kubeconform -strict -verbose -summary kube-apiserver.yaml`
 
 ## How to check
 
