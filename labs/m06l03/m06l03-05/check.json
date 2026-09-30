@@ -1,0 +1,17 @@
+{
+  "lab": "m06l03-05",
+  "lesson": "m06l03",
+  "title": "A key policy that separates admins from users",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "key-policy.json",
+  "files": [
+    "key-policy.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

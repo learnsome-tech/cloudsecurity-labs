@@ -1,0 +1,20 @@
+{
+  "lab": "m01l01-06",
+  "lesson": "m01l01",
+  "title": "Data residency: where do the buckets really live?",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 residency.py",
+  "main": "residency.py",
+  "files": [
+    "buckets.json",
+    "residency.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,17 @@
+{
+  "lab": "m02l01-03",
+  "lesson": "m02l01",
+  "title": "A policy evaluator you can read on one screen",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "iam_eval.py",
+  "files": [
+    "iam_eval.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

@@ -1,0 +1,22 @@
+{
+  "lab": "m02l03-04",
+  "lesson": "m02l03",
+  "title": "Four attempts to reach production",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 cross_account.py",
+  "main": "cross_account.py",
+  "files": [
+    "cross_account.py",
+    "iam_eval.py",
+    "roles.json",
+    "sts_sim.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

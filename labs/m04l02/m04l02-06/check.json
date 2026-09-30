@@ -1,0 +1,21 @@
+{
+  "lab": "m04l02-06",
+  "lesson": "m04l02",
+  "title": "Pre-flight: what breaks if we enforce Restricted?",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 preflight.py",
+  "main": "preflight.py",
+  "files": [
+    "pods.json",
+    "preflight.py",
+    "pss.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,17 @@
+{
+  "lab": "m06l04-02",
+  "lesson": "m06l04",
+  "title": "A configuration item for one security group",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "sg-config-item.json",
+  "files": [
+    "sg-config-item.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

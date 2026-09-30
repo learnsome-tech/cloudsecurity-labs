@@ -1,0 +1,23 @@
+{
+  "lab": "m03l04-05",
+  "lesson": "m03l04",
+  "title": "A gate with severity and expiring waivers",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "python3 sca_gate.py report.json",
+  "main": "sca_gate.py",
+  "files": [
+    ".trivyignore",
+    "command.txt",
+    "report.json",
+    "sca_gate.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

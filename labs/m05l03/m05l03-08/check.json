@@ -1,0 +1,24 @@
+{
+  "lab": "m05l03-08",
+  "lesson": "m05l03",
+  "title": "The revised plan, and the violation that stays",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash revised.sh",
+  "main": "revised.sh",
+  "files": [
+    "command.txt",
+    "guard.py",
+    "plan-fixed.json",
+    "revised.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "jq",
+    "python3"
+  ],
+  "note": null
+}

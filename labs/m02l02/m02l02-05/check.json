@@ -1,0 +1,17 @@
+{
+  "lab": "m02l02-05",
+  "lesson": "m02l02",
+  "title": "A stand-in issuer that signs tokens like GitHub",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "issuer.py",
+  "files": [
+    "issuer.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

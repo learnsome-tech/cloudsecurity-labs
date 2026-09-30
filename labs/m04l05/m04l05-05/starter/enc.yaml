@@ -1,0 +1,11 @@
+# /etc/kubernetes/enc/enc.yaml, passed as --encryption-provider-config
+apiVersion: apiserver.config.k8s.io/v1
+kind: EncryptionConfiguration
+resources:
+  - resources: [secrets]
+    providers:
+      - aescbc:             # the first provider encrypts every new write
+          keys:
+            - name: key1
+              secret: <base64 of 32 bytes from /dev/urandom>
+      - identity: {}        # still lets the server read old plaintext

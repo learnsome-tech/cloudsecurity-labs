@@ -1,0 +1,19 @@
+{
+  "lab": "m04l03-02",
+  "lesson": "m04l03",
+  "title": "Default deny, then give back DNS",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary default-deny.yaml",
+  "main": "default-deny.yaml",
+  "files": [
+    "default-deny.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

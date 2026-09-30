@@ -1,0 +1,19 @@
+{
+  "lab": "m04l01-02",
+  "lesson": "m04l01",
+  "title": "A two-stage Dockerfile ending in distroless",
+  "mode": "checker",
+  "runner": "hadolint",
+  "command": "hadolint Dockerfile",
+  "main": "Dockerfile",
+  "files": [
+    "Dockerfile"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "hadolint"
+  ],
+  "note": null
+}

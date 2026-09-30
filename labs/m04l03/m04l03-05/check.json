@@ -1,0 +1,19 @@
+{
+  "lab": "m04l03-05",
+  "lesson": "m04l03",
+  "title": "The one-dash difference: AND versus OR",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint scrape.yaml",
+  "main": "scrape.yaml",
+  "files": [
+    "scrape.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

@@ -1,0 +1,19 @@
+{
+  "lab": "m04l05-02",
+  "lesson": "m04l05",
+  "title": "The API server's static pod manifest",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary kube-apiserver.yaml",
+  "main": "kube-apiserver.yaml",
+  "files": [
+    "kube-apiserver.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

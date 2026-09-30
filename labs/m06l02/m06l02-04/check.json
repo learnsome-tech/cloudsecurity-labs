@@ -1,0 +1,21 @@
+{
+  "lab": "m06l02-04",
+  "lesson": "m06l02",
+  "title": "Anomaly analytics: a baseline per identity",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 anomaly.py",
+  "main": "anomaly.py",
+  "files": [
+    "anomaly.py",
+    "history.json",
+    "today.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,19 @@
+{
+  "lab": "m02l02-03",
+  "lesson": "m02l02",
+  "title": "The workflow side: permission to ask for a token",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint deploy.yml",
+  "main": "deploy.yml",
+  "files": [
+    "deploy.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "note": null
+}

@@ -1,0 +1,26 @@
+{
+  "lab": "m01l03-05",
+  "lesson": "m01l03",
+  "title": "Six calls through the guardrails of payments-prod",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 check.py",
+  "main": "check.py",
+  "files": [
+    "check.py",
+    "decide.py",
+    "scp/AllowComputeAndStorage.json",
+    "scp/DenyLeaveOrg.json",
+    "scp/EuRegionsOnly.json",
+    "scp/FullAWSAccess.json",
+    "scp/ProtectCloudTrail.json",
+    "statement.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,22 @@
+{
+  "lab": "m03l04-04",
+  "lesson": "m03l04",
+  "title": "Matching pinned versions against advisory ranges",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 sca_match.py",
+  "main": "sca_match.py",
+  "files": [
+    "advisories/GHSA-j8r2-6x86-q33q.json",
+    "advisories/GHSA-v845-jxx5-vc9f.json",
+    "requirements.txt",
+    "sca_match.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

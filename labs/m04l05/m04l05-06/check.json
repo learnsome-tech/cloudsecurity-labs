@@ -1,0 +1,19 @@
+{
+  "lab": "m04l05-06",
+  "lesson": "m04l05",
+  "title": "What etcd holds with and without encryption",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 etcd_at_rest.py",
+  "main": "etcd_at_rest.py",
+  "files": [
+    "etcd_at_rest.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

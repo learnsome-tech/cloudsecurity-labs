@@ -1,0 +1,20 @@
+{
+  "lab": "m05l02-04",
+  "lesson": "m05l02",
+  "title": "A line-by-line Python mirror of the policy",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 rules.py",
+  "main": "rules.py",
+  "files": [
+    "inputs.json",
+    "rules.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

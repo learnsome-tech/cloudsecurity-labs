@@ -1,0 +1,22 @@
+{
+  "lab": "m06l03-02",
+  "lesson": "m06l03",
+  "title": "Sealing a payroll file in an envelope",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash envelope.sh",
+  "main": "envelope.sh",
+  "files": [
+    "command.txt",
+    "envelope.sh",
+    "payroll.csv"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "openssl"
+  ],
+  "note": null
+}

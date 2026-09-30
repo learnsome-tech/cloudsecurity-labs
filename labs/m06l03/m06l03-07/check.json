@@ -1,0 +1,22 @@
+{
+  "lab": "m06l03-07",
+  "lesson": "m06l03",
+  "title": "Five requests against the key policy",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 check.py",
+  "main": "check.py",
+  "files": [
+    "check.py",
+    "iam-policies.json",
+    "key-policy.json",
+    "kmsauth.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

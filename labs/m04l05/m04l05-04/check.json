@@ -1,0 +1,19 @@
+{
+  "lab": "m04l05-04",
+  "lesson": "m04l05",
+  "title": "Locking down the kubelet",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary config.yaml",
+  "main": "config.yaml",
+  "files": [
+    "config.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

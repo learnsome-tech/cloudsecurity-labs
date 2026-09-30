@@ -1,0 +1,22 @@
+{
+  "lab": "m04l01-04",
+  "lesson": "m04l01",
+  "title": "Reading capabilities out of proc status",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 capdecode.py",
+  "main": "capdecode.py",
+  "files": [
+    "capdecode.py",
+    "hardened.status",
+    "nonroot.status",
+    "root.status"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

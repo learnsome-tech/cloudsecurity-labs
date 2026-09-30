@@ -1,0 +1,17 @@
+{
+  "lab": "m04l02-03",
+  "lesson": "m04l02",
+  "title": "The checks, written out in Python",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "pss.py",
+  "files": [
+    "pss.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

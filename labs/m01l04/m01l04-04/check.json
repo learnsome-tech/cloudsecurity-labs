@@ -1,0 +1,25 @@
+{
+  "lab": "m01l04-04",
+  "lesson": "m01l04",
+  "title": "Checking the flags the way kube-bench does",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 cis.py",
+  "main": "cis.py",
+  "files": [
+    "after/etcd.yaml",
+    "after/kube-apiserver.yaml",
+    "after/kubelet.conf",
+    "before/etcd.yaml",
+    "before/kube-apiserver.yaml",
+    "before/kubelet.conf",
+    "cis.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

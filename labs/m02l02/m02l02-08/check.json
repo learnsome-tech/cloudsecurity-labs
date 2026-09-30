@@ -1,0 +1,21 @@
+{
+  "lab": "m02l02-08",
+  "lesson": "m02l02",
+  "title": "Why the subject condition is the real defence",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 trust_check.py",
+  "main": "trust_check.py",
+  "files": [
+    "iam_eval.py",
+    "trust-policy.json",
+    "trust_check.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

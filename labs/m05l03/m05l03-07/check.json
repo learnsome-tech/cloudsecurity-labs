@@ -1,0 +1,22 @@
+{
+  "lab": "m05l03-07",
+  "lesson": "m05l03",
+  "title": "The guardrails against the plan",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "python3 guard.py plan.json",
+  "main": "guard.py",
+  "files": [
+    "command.txt",
+    "guard.py",
+    "plan.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

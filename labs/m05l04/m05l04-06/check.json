@@ -1,0 +1,20 @@
+{
+  "lab": "m05l04-06",
+  "lesson": "m05l04",
+  "title": "backend.tf: an encrypted, locked, versioned home",
+  "mode": "checker",
+  "runner": "terraform-validate",
+  "command": "terraform init; terraform validate",
+  "main": "backend.tf",
+  "files": [
+    "backend.tf"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "sh",
+    "terraform"
+  ],
+  "note": null
+}

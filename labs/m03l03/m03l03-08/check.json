@@ -1,0 +1,24 @@
+{
+  "lab": "m03l03-08",
+  "lesson": "m03l03",
+  "title": "Joining the inventory to the scan results",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 coverage.py",
+  "main": "coverage.py",
+  "files": [
+    "coverage.py",
+    "inventory.csv",
+    "scans/legacy-billing.json",
+    "scans/payments-api.json",
+    "scans/promo-site.json",
+    "scans/reporting-jobs.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

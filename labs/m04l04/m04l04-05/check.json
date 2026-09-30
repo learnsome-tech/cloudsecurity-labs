@@ -1,0 +1,21 @@
+{
+  "lab": "m04l04-05",
+  "lesson": "m04l04",
+  "title": "Behavioural baseline and drift",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 baseline.py",
+  "main": "baseline.py",
+  "files": [
+    "baseline.py",
+    "learn.jsonl",
+    "watch.jsonl"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

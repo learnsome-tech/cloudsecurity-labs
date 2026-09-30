@@ -1,0 +1,17 @@
+{
+  "lab": "m02l03-03",
+  "lesson": "m02l03",
+  "title": "The rules STS applies to AssumeRole",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "sts_sim.py",
+  "files": [
+    "sts_sim.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

@@ -1,0 +1,21 @@
+{
+  "lab": "m04l01-05",
+  "lesson": "m04l01",
+  "title": "Rootless: what container root is on the host",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 uidmap.py",
+  "main": "uidmap.py",
+  "files": [
+    "no-userns.uid_map",
+    "uidmap.py",
+    "userns.uid_map"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

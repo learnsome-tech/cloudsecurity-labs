@@ -1,0 +1,21 @@
+{
+  "lab": "m06l04-06",
+  "lesson": "m06l04",
+  "title": "A remediation plan with guardrails",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 remediate.py",
+  "main": "remediate.py",
+  "files": [
+    "config-items.json",
+    "controls.py",
+    "remediate.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

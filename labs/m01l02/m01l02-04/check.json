@@ -1,0 +1,20 @@
+{
+  "lab": "m01l02-04",
+  "lesson": "m01l02",
+  "title": "Walking the tree to find misplaced accounts",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 orgtree.py",
+  "main": "orgtree.py",
+  "files": [
+    "org.json",
+    "orgtree.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

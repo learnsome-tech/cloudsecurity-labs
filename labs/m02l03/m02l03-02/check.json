@@ -1,0 +1,17 @@
+{
+  "lab": "m02l03-02",
+  "lesson": "m02l03",
+  "title": "The target roles, as get-role describes them",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "roles.json",
+  "files": [
+    "roles.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

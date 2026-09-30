@@ -1,0 +1,21 @@
+{
+  "lab": "m02l01-07",
+  "lesson": "m02l01",
+  "title": "An administrator role with a boundary attached",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 boundary.py",
+  "main": "boundary.py",
+  "files": [
+    "app-dev.json",
+    "boundary.py",
+    "iam_eval.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

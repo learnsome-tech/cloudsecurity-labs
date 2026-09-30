@@ -1,0 +1,26 @@
+{
+  "lab": "m01l03-06",
+  "lesson": "m01l03",
+  "title": "One narrow allow list above the account",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 narrow.py",
+  "main": "narrow.py",
+  "files": [
+    "decide.py",
+    "narrow.py",
+    "scp/AllowComputeAndStorage.json",
+    "scp/DenyLeaveOrg.json",
+    "scp/EuRegionsOnly.json",
+    "scp/FullAWSAccess.json",
+    "scp/ProtectCloudTrail.json",
+    "statement.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

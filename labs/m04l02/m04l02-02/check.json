@@ -1,0 +1,19 @@
+{
+  "lab": "m04l02-02",
+  "lesson": "m04l02",
+  "title": "Labelling a namespace for a staged rollout",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary namespace.yaml",
+  "main": "namespace.yaml",
+  "files": [
+    "namespace.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

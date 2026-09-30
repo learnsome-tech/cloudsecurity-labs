@@ -1,0 +1,14 @@
+#!/bin/sh
+# terraform in the lab sandbox: offline providers from the image (/opt/lab/terraform/cli.tfrc), no update
+# checks, the automation mode the terraform course recorded its expected output in, no colour codes (the lab
+# console shows plain text) for every subcommand that accepts -no-color, and few scheduler threads for it and
+# its provider plugins, which all count toward the run's process limit.
+TF_CLI_CONFIG_FILE="${TF_CLI_CONFIG_FILE:-/opt/lab/terraform/cli.tfrc}"
+CHECKPOINT_DISABLE=1
+TF_IN_AUTOMATION="${TF_IN_AUTOMATION-1}"
+GOMAXPROCS="${GOMAXPROCS:-2}"
+export TF_CLI_CONFIG_FILE CHECKPOINT_DISABLE TF_IN_AUTOMATION GOMAXPROCS
+for c in init plan apply destroy validate refresh output show import fmt test get; do
+  eval "[ -n \"\${TF_CLI_ARGS_$c+x}\" ] || export TF_CLI_ARGS_$c=-no-color"
+done
+exec /opt/terraform/terraform "$@"

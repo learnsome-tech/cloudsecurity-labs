@@ -1,0 +1,23 @@
+{
+  "lab": "m06l03-03",
+  "lesson": "m06l03",
+  "title": "Opening the envelope, and failing to",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash decrypt.sh",
+  "main": "decrypt.sh",
+  "files": [
+    "command.txt",
+    "decrypt.sh",
+    "envelope.sh",
+    "payroll.csv"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "openssl"
+  ],
+  "note": null
+}

@@ -1,0 +1,20 @@
+{
+  "lab": "m04l04-04",
+  "lesson": "m04l04",
+  "title": "Applying the rules to a captured event stream",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 falco_match.py",
+  "main": "falco_match.py",
+  "files": [
+    "events.jsonl",
+    "falco_match.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

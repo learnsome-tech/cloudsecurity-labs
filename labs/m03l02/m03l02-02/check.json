@@ -1,0 +1,19 @@
+{
+  "lab": "m03l02-02",
+  "lesson": "m03l02",
+  "title": "Measuring randomness with Shannon entropy",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 entropy.py",
+  "main": "entropy.py",
+  "files": [
+    "entropy.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,22 @@
+{
+  "lab": "m05l03-03",
+  "lesson": "m05l03",
+  "title": "Three questions to ask any plan, answered with jq",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash inspect.sh",
+  "main": "inspect.sh",
+  "files": [
+    "command.txt",
+    "inspect.sh",
+    "plan.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "jq"
+  ],
+  "note": null
+}

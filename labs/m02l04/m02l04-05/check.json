@@ -1,0 +1,22 @@
+{
+  "lab": "m02l04-05",
+  "lesson": "m02l04",
+  "title": "Generating a policy from what was actually used",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 rightsize.py",
+  "main": "rightsize.py",
+  "files": [
+    "iam_eval.py",
+    "rightsize.py",
+    "trail-90d.json",
+    "trail.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

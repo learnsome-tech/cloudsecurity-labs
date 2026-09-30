@@ -1,0 +1,24 @@
+{
+  "lab": "m05l04-03",
+  "lesson": "m05l04",
+  "title": "The nightly job: reading exit codes correctly",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash ci.sh",
+  "main": "ci.sh",
+  "files": [
+    "ci.sh",
+    "command.txt",
+    "describe-security-groups.json",
+    "drift.py",
+    "terraform.tfstate"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

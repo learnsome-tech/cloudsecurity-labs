@@ -1,0 +1,20 @@
+{
+  "lab": "m03l05-02",
+  "lesson": "m03l05",
+  "title": "Writing a CycloneDX SBOM from the lockfile",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 make_sbom.py",
+  "main": "make_sbom.py",
+  "files": [
+    "make_sbom.py",
+    "requirements.txt"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

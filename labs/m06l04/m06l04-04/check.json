@@ -1,0 +1,21 @@
+{
+  "lab": "m06l04-04",
+  "lesson": "m06l04",
+  "title": "Evaluating six resources",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 evaluate.py",
+  "main": "evaluate.py",
+  "files": [
+    "config-items.json",
+    "controls.py",
+    "evaluate.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

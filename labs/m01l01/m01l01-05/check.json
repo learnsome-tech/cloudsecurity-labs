@@ -1,0 +1,20 @@
+{
+  "lab": "m01l01-05",
+  "lesson": "m01l01",
+  "title": "Which admin ports can the internet reach?",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 audit_sg.py",
+  "main": "audit_sg.py",
+  "files": [
+    "audit_sg.py",
+    "sg.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,21 @@
+{
+  "lab": "m06l02-07",
+  "lesson": "m06l02",
+  "title": "Routing four findings, and the one that gets lost",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 route.py",
+  "main": "route.py",
+  "files": [
+    "events.json",
+    "high-severity.json",
+    "route.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

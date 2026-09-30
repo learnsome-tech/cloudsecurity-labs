@@ -1,0 +1,24 @@
+{
+  "lab": "m02l04-04",
+  "lesson": "m02l04",
+  "title": "Measuring the gap between granted and used",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 unused.py",
+  "main": "unused.py",
+  "files": [
+    "actions.json",
+    "iam_eval.py",
+    "reporting-role.json",
+    "trail-90d.json",
+    "trail.py",
+    "unused.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

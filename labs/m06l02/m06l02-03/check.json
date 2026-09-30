@@ -1,0 +1,21 @@
+{
+  "lab": "m06l02-03",
+  "lesson": "m06l02",
+  "title": "The evidence behind credential exfiltration",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 exfil.py",
+  "main": "exfil.py",
+  "files": [
+    "cloudtrail.json",
+    "exfil.py",
+    "instances.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

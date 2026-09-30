@@ -1,0 +1,20 @@
+{
+  "lab": "m04l05-03",
+  "lesson": "m04l05",
+  "title": "Auditing the flags like a benchmark would",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 audit_flags.py",
+  "main": "audit_flags.py",
+  "files": [
+    "audit_flags.py",
+    "kube-apiserver.yaml"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

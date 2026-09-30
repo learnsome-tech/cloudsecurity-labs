@@ -1,0 +1,22 @@
+{
+  "lab": "m02l03-06",
+  "lesson": "m02l03",
+  "title": "The confused deputy, with and without the condition",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 vendor.py",
+  "main": "vendor.py",
+  "files": [
+    "iam_eval.py",
+    "roles.json",
+    "sts_sim.py",
+    "vendor.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

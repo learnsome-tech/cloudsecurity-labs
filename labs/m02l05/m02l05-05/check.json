@@ -1,0 +1,25 @@
+{
+  "lab": "m02l05-05",
+  "lesson": "m02l05",
+  "title": "Five requests, five decisions",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 try_access.py",
+  "main": "try_access.py",
+  "files": [
+    "broker.py",
+    "devices.json",
+    "directory.json",
+    "harness.py",
+    "idp.py",
+    "server.py",
+    "try_access.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

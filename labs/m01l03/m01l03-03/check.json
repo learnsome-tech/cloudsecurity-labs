@@ -1,0 +1,17 @@
+{
+  "lab": "m01l03-03",
+  "lesson": "m01l03",
+  "title": "Does a statement match a request?",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "statement.py",
+  "files": [
+    "statement.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

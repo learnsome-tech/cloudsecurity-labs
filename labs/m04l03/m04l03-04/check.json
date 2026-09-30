@@ -1,0 +1,22 @@
+{
+  "lab": "m04l03-04",
+  "lesson": "m04l03",
+  "title": "Walking six connections through the policies",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 flows.py",
+  "main": "flows.py",
+  "files": [
+    "flows.py",
+    "netpol.py",
+    "pods.json",
+    "shop-policies.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,19 @@
+{
+  "lab": "m05l01-05",
+  "lesson": "m05l01",
+  "title": "A custom check in Checkov's YAML policy format",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint data_classification.yaml",
+  "main": "data_classification.yaml",
+  "files": [
+    "data_classification.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

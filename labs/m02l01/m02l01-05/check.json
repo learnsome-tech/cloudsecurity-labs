@@ -1,0 +1,21 @@
+{
+  "lab": "m02l01-05",
+  "lesson": "m02l01",
+  "title": "Four requests against the developer policy",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 check_requests.py",
+  "main": "check_requests.py",
+  "files": [
+    "app-dev.json",
+    "check_requests.py",
+    "iam_eval.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

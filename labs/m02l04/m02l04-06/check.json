@@ -1,0 +1,21 @@
+{
+  "lab": "m02l04-06",
+  "lesson": "m02l04",
+  "title": "Looking for privilege escalation paths",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 escalate.py",
+  "main": "escalate.py",
+  "files": [
+    "escalate.py",
+    "iam_eval.py",
+    "role-policies.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

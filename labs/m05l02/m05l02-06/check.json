@@ -1,0 +1,17 @@
+{
+  "lab": "m05l02-06",
+  "lesson": "m05l02",
+  "title": "buckets_test.rego: policy gets unit tests",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "buckets_test.rego",
+  "files": [
+    "buckets_test.rego"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

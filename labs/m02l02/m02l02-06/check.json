@@ -1,0 +1,17 @@
+{
+  "lab": "m02l02-06",
+  "lesson": "m02l02",
+  "title": "Validating a token the way STS does",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "sts.py",
+  "files": [
+    "sts.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

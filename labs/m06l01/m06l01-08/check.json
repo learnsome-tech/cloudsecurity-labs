@@ -1,0 +1,22 @@
+{
+  "lab": "m06l01-08",
+  "lesson": "m06l01",
+  "title": "Reading the audit log with jq",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash audit-queries.sh",
+  "main": "audit-queries.sh",
+  "files": [
+    "audit-queries.sh",
+    "audit.log",
+    "command.txt"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "jq"
+  ],
+  "note": null
+}

@@ -1,0 +1,22 @@
+{
+  "lab": "m05l01-03",
+  "lesson": "m05l01",
+  "title": "The logic behind CKV_AWS_24, applied to four groups",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "python3 check_sg.py network.tf.json",
+  "main": "check_sg.py",
+  "files": [
+    "check_sg.py",
+    "command.txt",
+    "network.tf.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

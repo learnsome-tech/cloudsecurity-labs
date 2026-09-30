@@ -1,0 +1,20 @@
+{
+  "lab": "m01l04-07",
+  "lesson": "m01l04",
+  "title": "Reading the server name from a real Client Hello",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 sni.py",
+  "main": "sni.py",
+  "files": [
+    "egress-domain-allowlist.json",
+    "sni.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

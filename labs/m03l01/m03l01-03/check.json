@@ -1,0 +1,19 @@
+{
+  "lab": "m03l01-03",
+  "lesson": "m03l01",
+  "title": "A pull request workflow with three gates",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint security.yml",
+  "main": "security.yml",
+  "files": [
+    "security.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "note": null
+}

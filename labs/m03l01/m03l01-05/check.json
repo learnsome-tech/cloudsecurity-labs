@@ -1,0 +1,21 @@
+{
+  "lab": "m03l01-05",
+  "lesson": "m03l01",
+  "title": "Version control as the change record and the backout",
+  "mode": "run",
+  "runner": "bash",
+  "command": "bash backout.sh",
+  "main": "backout.sh",
+  "files": [
+    "backout.sh",
+    "command.txt"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "bash",
+    "git"
+  ],
+  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+}

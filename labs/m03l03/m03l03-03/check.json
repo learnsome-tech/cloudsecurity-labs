@@ -1,0 +1,22 @@
+{
+  "lab": "m03l03-03",
+  "lesson": "m03l03",
+  "title": "The grep approach, and why developers stop reading it",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "python3 grep_scan.py db.py",
+  "main": "grep_scan.py",
+  "files": [
+    "command.txt",
+    "db.py",
+    "grep_scan.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

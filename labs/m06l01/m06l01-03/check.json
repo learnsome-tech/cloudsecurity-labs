@@ -1,0 +1,21 @@
+{
+  "lab": "m06l01-03",
+  "lesson": "m06l01",
+  "title": "Signing an hour of log files, the way CloudTrail does",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 digest.py",
+  "main": "digest.py",
+  "files": [
+    "digest.py",
+    "logs/111122223333_CloudTrail_eu-west-2_20260927T0905Z_7Qm2.json",
+    "logs/111122223333_CloudTrail_eu-west-2_20260927T0915Z_Kx9d.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

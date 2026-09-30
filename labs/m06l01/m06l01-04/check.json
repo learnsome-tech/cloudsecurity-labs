@@ -1,0 +1,22 @@
+{
+  "lab": "m06l01-04",
+  "lesson": "m06l01",
+  "title": "Deleting one record, then forging the digest",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 validate.py",
+  "main": "validate.py",
+  "files": [
+    "digest.py",
+    "logs/111122223333_CloudTrail_eu-west-2_20260927T0905Z_7Qm2.json",
+    "logs/111122223333_CloudTrail_eu-west-2_20260927T0915Z_Kx9d.json",
+    "validate.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

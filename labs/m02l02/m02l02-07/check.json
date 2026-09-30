@@ -1,0 +1,21 @@
+{
+  "lab": "m02l02-07",
+  "lesson": "m02l02",
+  "title": "Four tokens, one of them genuine",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 tokens.py",
+  "main": "tokens.py",
+  "files": [
+    "issuer.py",
+    "sts.py",
+    "tokens.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

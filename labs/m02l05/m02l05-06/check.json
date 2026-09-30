@@ -1,0 +1,25 @@
+{
+  "lab": "m02l05-06",
+  "lesson": "m02l05",
+  "title": "Offboarding through SCIM, mid-session",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 offboard.py",
+  "main": "offboard.py",
+  "files": [
+    "broker.py",
+    "devices.json",
+    "directory.json",
+    "harness.py",
+    "idp.py",
+    "offboard.py",
+    "server.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

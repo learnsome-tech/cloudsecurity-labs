@@ -1,0 +1,19 @@
+{
+  "lab": "m01l04-03",
+  "lesson": "m01l04",
+  "title": "A control plane manifest that fails the CIS benchmark",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary kube-apiserver.yaml",
+  "main": "kube-apiserver.yaml",
+  "files": [
+    "kube-apiserver.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

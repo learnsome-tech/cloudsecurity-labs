@@ -1,0 +1,22 @@
+{
+  "lab": "m03l03-04",
+  "lesson": "m03l03",
+  "title": "Asking the syntax tree instead",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "python3 ast_scan.py db.py",
+  "main": "ast_scan.py",
+  "files": [
+    "ast_scan.py",
+    "command.txt",
+    "db.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

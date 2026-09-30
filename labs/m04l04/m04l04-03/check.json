@@ -1,0 +1,19 @@
+{
+  "lab": "m04l04-03",
+  "lesson": "m04l04",
+  "title": "Two custom Falco rules",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint falco_rules.local.yaml",
+  "main": "falco_rules.local.yaml",
+  "files": [
+    "falco_rules.local.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

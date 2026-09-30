@@ -1,0 +1,24 @@
+{
+  "lab": "m03l02-06",
+  "lesson": "m03l02",
+  "title": "Deleted from the file, still in the history",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash history.sh",
+  "main": "history.sh",
+  "files": [
+    "command.txt",
+    "fake_token.py",
+    "history.sh",
+    "scan_staged.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "git",
+    "python3"
+  ],
+  "note": null
+}

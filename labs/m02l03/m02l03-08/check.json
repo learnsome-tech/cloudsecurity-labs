@@ -1,0 +1,20 @@
+{
+  "lab": "m02l03-08",
+  "lesson": "m02l03",
+  "title": "Walking a chain back to its origin",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 trace_chain.py",
+  "main": "trace_chain.py",
+  "files": [
+    "trace_chain.py",
+    "trail.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

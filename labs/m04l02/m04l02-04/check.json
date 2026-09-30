@@ -1,0 +1,23 @@
+{
+  "lab": "m04l02-04",
+  "lesson": "m04l02",
+  "title": "An ordinary pod against both levels",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 admit.py",
+  "main": "admit.py",
+  "files": [
+    "admit.py",
+    "hardened-pod.json",
+    "log-agent.json",
+    "pss.py",
+    "web-pod.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

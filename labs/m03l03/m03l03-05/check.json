@@ -1,0 +1,19 @@
+{
+  "lab": "m03l03-05",
+  "lesson": "m03l03",
+  "title": "The same check as a Semgrep rule",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint sql-format.yml",
+  "main": "sql-format.yml",
+  "files": [
+    "sql-format.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

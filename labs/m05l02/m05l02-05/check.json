@@ -1,0 +1,21 @@
+{
+  "lab": "m05l02-05",
+  "lesson": "m05l02",
+  "title": "The caller's side: querying the decision API",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 pep.py",
+  "main": "pep.py",
+  "files": [
+    "opa_standin.py",
+    "pep.py",
+    "rules.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

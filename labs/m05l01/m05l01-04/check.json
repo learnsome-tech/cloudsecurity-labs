@@ -1,0 +1,24 @@
+{
+  "lab": "m05l01-04",
+  "lesson": "m05l01",
+  "title": "The exit code is the gate",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash gate.sh",
+  "main": "gate.sh",
+  "files": [
+    "check_sg.py",
+    "command.txt",
+    "gate.sh",
+    "network-fixed.tf.json",
+    "network.tf.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

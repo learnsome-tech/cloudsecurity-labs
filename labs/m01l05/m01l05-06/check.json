@@ -1,0 +1,19 @@
+{
+  "lab": "m01l05-06",
+  "lesson": "m01l05",
+  "title": "A data perimeter from both sides of an endpoint",
+  "mode": "checker",
+  "runner": "yamllint",
+  "command": "yamllint perimeter.yaml",
+  "main": "perimeter.yaml",
+  "files": [
+    "perimeter.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "yamllint"
+  ],
+  "note": null
+}

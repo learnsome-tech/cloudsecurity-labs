@@ -1,0 +1,22 @@
+{
+  "lab": "m03l05-05",
+  "lesson": "m03l05",
+  "title": "What verification must check, and two attacks",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash verify.sh",
+  "main": "verify.sh",
+  "files": [
+    "command.txt",
+    "sign.sh",
+    "verify.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "openssl"
+  ],
+  "note": null
+}

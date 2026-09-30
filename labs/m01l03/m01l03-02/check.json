@@ -1,0 +1,17 @@
+{
+  "lab": "m01l03-02",
+  "lesson": "m01l03",
+  "title": "A region guardrail for data residency",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "EuRegionsOnly.json",
+  "files": [
+    "EuRegionsOnly.json"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

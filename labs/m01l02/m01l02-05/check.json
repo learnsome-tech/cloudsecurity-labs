@@ -1,0 +1,20 @@
+{
+  "lab": "m01l02-05",
+  "lesson": "m01l02",
+  "title": "Placement is access: the organisation path condition",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 orgpaths.py",
+  "main": "orgpaths.py",
+  "files": [
+    "org.json",
+    "orgpaths.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

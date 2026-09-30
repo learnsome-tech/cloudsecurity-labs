@@ -1,0 +1,19 @@
+{
+  "lab": "m04l05-05",
+  "lesson": "m04l05",
+  "title": "Encryption at rest for Secrets",
+  "mode": "checker",
+  "runner": "kubeconform",
+  "command": "kubeconform -strict -summary enc.yaml",
+  "main": "enc.yaml",
+  "files": [
+    "enc.yaml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "kubeconform"
+  ],
+  "note": null
+}

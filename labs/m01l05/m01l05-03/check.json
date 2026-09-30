@@ -1,0 +1,20 @@
+{
+  "lab": "m01l05-03",
+  "lesson": "m01l05",
+  "title": "Tracing packets hop by hop",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 route.py",
+  "main": "route.py",
+  "files": [
+    "route.py",
+    "routes.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

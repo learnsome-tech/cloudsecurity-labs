@@ -1,0 +1,17 @@
+{
+  "lab": "m05l01-02",
+  "lesson": "m05l01",
+  "title": "main.tf: three findings in twenty-two lines",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "main.tf",
+  "files": [
+    "main.tf"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "Its Terraform configuration uses the `aws` provider, which needs a real cloud account. The lab sandbox has only the local, null and random providers."
+}

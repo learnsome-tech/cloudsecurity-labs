@@ -1,0 +1,17 @@
+{
+  "lab": "m03l02-03",
+  "lesson": "m03l02",
+  "title": "A gitleaks rule for an internal token format",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": ".gitleaks.toml",
+  "files": [
+    ".gitleaks.toml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

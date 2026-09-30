@@ -1,0 +1,24 @@
+{
+  "lab": "m04l03-06",
+  "lesson": "m04l03",
+  "title": "Proving what the extra dash opened up",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 and_or.py",
+  "main": "and_or.py",
+  "files": [
+    "and_or.py",
+    "default-deny.json",
+    "netpol.py",
+    "pods.json",
+    "scrape-and.json",
+    "scrape-or.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}
